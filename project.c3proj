@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 22500,
-	"name": "New project",
+	"name": "Prototype",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -18,6 +18,14 @@
 			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
@@ -48,25 +56,45 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Sin",
-			"name": "Sine",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
 		}
 	],
-	"uniqueId": "duxn31by110",
+	"uniqueId": "fghhzbz24mz",
 	"objectTypes": {
 		"items": [
-			"Sprite",
-			"player",
-			"Sprite2",
-			"portal2",
+			"Platfrom",
+			"Player",
 			"Keyboard",
-			"mp",
-			"mp2",
-			"death",
-			"end"
+			"Sprite",
+			"teleport1",
+			"teleport2",
+			"respoondPlatform",
+			"Sprite4",
+			"TiledBackground",
+			"TiledBackground2",
+			"Sprite5",
+			"Car",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
@@ -78,7 +106,8 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Layout 2"
 		],
 		"subfolders": []
 	},
@@ -112,49 +141,9 @@
 		"icon": {
 			"items": [
 				{
-					"name": "icon-16.png",
-					"type": "image/png",
-					"sid": 468144999417956,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-32.png",
-					"type": "image/png",
-					"sid": 309961909059608,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-64.png",
-					"type": "image/png",
-					"sid": 133421147532498,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-128.png",
-					"type": "image/png",
-					"sid": 494058536919524,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-512.png",
-					"type": "image/png",
-					"sid": 435733623024019,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 380017534065625,
+					"sid": 137116547746262,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
@@ -162,7 +151,47 @@
 				{
 					"name": "icon-256.png",
 					"type": "image/png",
-					"sid": 228427101655188,
+					"sid": 146938385998244,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 212378129192813,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 349099091209855,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 345884689252376,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 309409455203653,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 475857620988100,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -191,10 +220,10 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": false,
+		"pixelRounding": true,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-scale",
-		"fullscreenQuality": "high",
+		"fullscreenMode": "letterbox-integer-scale",
+		"fullscreenQuality": "low",
 		"viewportFit": "auto",
 		"backgroundColor": [
 			0,
@@ -221,7 +250,7 @@
 		"gpuPreference": "high-performance",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
-		"sampling": "trilinear",
+		"sampling": "nearest",
 		"downscaling": "medium",
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "splash",
@@ -230,7 +259,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
-	"firstLayout": null
+	"viewportWidth": 1280,
+	"viewportHeight": 960,
+	"firstLayout": "Layout 1"
 }

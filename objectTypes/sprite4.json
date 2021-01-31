@@ -1,14 +1,24 @@
 {
-	"name": "Sprite",
+	"name": "Sprite4",
 	"plugin-id": "Sprite",
-	"sid": 755957208227683,
+	"sid": 758184436384962,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 285788697192598
+		},
+		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 583520913510158
+			"sid": 634573678742147
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 262430850656724
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +34,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7099547,
+						"imageSpriteId": 7949909,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 440507713450353,
+				"sid": 287801944602741,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

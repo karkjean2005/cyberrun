@@ -1,16 +1,10 @@
 {
-	"name": "Sprite",
+	"name": "respoondPlatform",
 	"plugin-id": "Sprite",
-	"sid": 755957208227683,
+	"sid": 904528198062240,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 583520913510158
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7099547,
+						"imageSpriteId": 1254653,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 440507713450353,
+				"sid": 117439809663477,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
