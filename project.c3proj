@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 22500,
+	"savedWithRelease": 23400,
 	"name": "Prototype",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,15 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -35,7 +43,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -43,7 +51,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -51,7 +59,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -59,7 +67,7 @@
 			"id": "Fade",
 			"name": "Fade",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -67,7 +75,7 @@
 			"id": "Timer",
 			"name": "Timer",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		},
 		{
@@ -75,7 +83,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234",
 			"bundled": false
 		}
 	],
@@ -94,7 +102,8 @@
 			"TiledBackground2",
 			"Sprite5",
 			"Car",
-			"Sprite2"
+			"Sprite2",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -123,7 +132,18 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "524309__bertsz__dark-cyberpunk-orchestral-music.mp3",
+					"type": "audio/mpeg",
+					"sid": 281526854472165
+				},
+				{
+					"name": "134991__zombiechaser3__running-sounds.mp3",
+					"type": "audio/mpeg",
+					"sid": 490323970449729
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
@@ -248,6 +268,7 @@
 		"orientations": "landscape",
 		"enableWebGL": true,
 		"gpuPreference": "high-performance",
+		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
 		"sampling": "nearest",
