@@ -428,7 +428,8 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 654153345166597
+					"sid": 654153345166597,
+					"disabled": true
 				}
 			],
 			"sid": 255403311326109,
@@ -692,11 +693,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 827058678775947,
+					"sid": 772378616485411,
 					"parameters": {
 						"audio-file": "524309__bertsz__dark-cyberpunk-orchestral-music",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				}
@@ -707,10 +708,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-moving",
+					"id": "on-moved",
 					"objectClass": "Player",
-					"sid": 742307117433604,
-					"disabled": true,
+					"sid": 376380497668992,
 					"behaviorType": "Platform"
 				}
 			],
@@ -718,17 +718,16 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 471351067338780,
-					"disabled": true,
+					"sid": 222758742128350,
 					"parameters": {
 						"audio-file": "134991__zombiechaser3__running-sounds",
-						"loop": "not-looping",
+						"loop": "looping",
 						"volume": "0",
 						"tag-optional": "\"\""
 					}
 				}
 			],
-			"sid": 402258170797577
+			"sid": 798801994812886
 		}
 	],
 	"sid": 442347107940901

@@ -142,6 +142,11 @@
 					"name": "134991__zombiechaser3__running-sounds.mp3",
 					"type": "audio/mpeg",
 					"sid": 490323970449729
+				},
+				{
+					"name": "134991__zombiechaser3__running-sounds(short).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 485686226598481
 				}
 			],
 			"subfolders": []
