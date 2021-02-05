@@ -12,6 +12,16 @@
 			"sid": 118300923625781
 		},
 		{
+			"eventType": "variable",
+			"name": "Timer",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 600311987806144
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -694,6 +704,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 772378616485411,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "524309__bertsz__dark-cyberpunk-orchestral-music",
 						"loop": "not-looping",
@@ -719,6 +730,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 222758742128350,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "134991__zombiechaser3__running-sounds",
 						"loop": "looping",
@@ -728,6 +740,111 @@
 				}
 			],
 			"sid": 798801994812886
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-los-to-object",
+					"objectClass": "enemy",
+					"sid": 108374078395786,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 841629022178331,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-los-to-object",
+					"objectClass": "enemy",
+					"sid": 620461875759560,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "enemy",
+					"sid": 540199696350944,
+					"parameters": {
+						"angle": "angle(enemy.X,enemy.Y,Player.X,Player.Y)",
+						"distance": "3"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "enemy",
+					"sid": 973865352814164,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				},
+				{
+					"id": "acquire-target",
+					"objectClass": "enemy",
+					"sid": 110092551925366,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				}
+			],
+			"sid": 711838766748532
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-target",
+					"objectClass": "enemy",
+					"sid": 305651195911905,
+					"behaviorType": "Turret"
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 233295534331168,
+					"parameters": {
+						"interval-seconds": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-rate-of-fire",
+					"objectClass": "enemy",
+					"sid": 802133613228211,
+					"behaviorType": "Turret",
+					"parameters": {
+						"rate-of-fire": "1"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "enemy",
+					"sid": 802637255270048,
+					"parameters": {
+						"object": "Sprite3",
+						"layer": "1",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 292265173813740
 		}
 	],
 	"sid": 442347107940901

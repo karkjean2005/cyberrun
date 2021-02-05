@@ -1,0 +1,55 @@
+{
+	"name": "enemy",
+	"plugin-id": "Sprite",
+	"sid": 734159235799539,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 395253861466392
+		},
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 717217469236819
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 361969,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1.14,
+								"y": 0.488
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 987001724144898,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
