@@ -1,0 +1,75 @@
+{
+	"name": "Credits Event Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 281391025580487,
+					"parameters": {
+						"object": "CreditBackText"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 460443732130769,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 634080631719345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 553548083248476
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 682222393676016,
+					"parameters": {
+						"audio-file": "I_Do_Know_by_Memoraphile_CC0",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 965045242833964
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 466365694438037
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 171015739077754,
+					"parameters": {
+						"tag": "\"\""
+					}
+				}
+			],
+			"sid": 175816688805342
+		}
+	],
+	"sid": 437846405290686
+}

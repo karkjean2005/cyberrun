@@ -1,0 +1,99 @@
+{
+	"name": "TitleEventSheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 188820828261785,
+					"parameters": {
+						"object": "Starttext"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 778043453519804,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 974258144785011
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 353187857870157,
+					"parameters": {
+						"object": "CreditsText"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 315810003571207,
+					"parameters": {
+						"layout": "Credits"
+					}
+				}
+			],
+			"sid": 914687595012110
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 542480035322108
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 134734971644943,
+					"parameters": {
+						"audio-file": "Intro",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 705327942344622
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 957205117815775
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 827033611550325,
+					"parameters": {
+						"tag": "\"\""
+					}
+				}
+			],
+			"sid": 262645670527298
+		}
+	],
+	"sid": 585201477906770
+}
