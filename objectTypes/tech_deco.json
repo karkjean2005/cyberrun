@@ -1,48 +1,30 @@
 {
-	"name": "Car",
+	"name": "tech_deco",
 	"plugin-id": "Sprite",
-	"sid": 593290697034628,
+	"sid": 730237031371237,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 989368531690728
-		},
-		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 806275675001404
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 114,
+						"height": 46,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6565575,
+						"imageSpriteId": 3890986,
 						"useCollisionPoly": true,
-						"imagePoints": [
-							{
-								"name": "Image Point 1",
-								"x": 0,
-								"y": 0.504
-							}
-						],
 						"duration": 1
 					}
 				],
-				"sid": 229353130563673,
-				"name": "Animation 1",
+				"sid": 814716380244329,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

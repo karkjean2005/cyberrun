@@ -37,9 +37,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Player",
-					"sid": 947298763956171,
+					"sid": 974002319988316,
 					"parameters": {
-						"state": "mirrored"
+						"state": "not-mirrored"
 					}
 				}
 			],
@@ -61,9 +61,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Player",
-					"sid": 773521619431588,
+					"sid": 515058391089448,
 					"parameters": {
-						"state": "not-mirrored"
+						"state": "mirrored"
 					}
 				}
 			],

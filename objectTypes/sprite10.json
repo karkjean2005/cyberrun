@@ -1,49 +1,49 @@
 {
-	"name": "Sprite3",
+	"name": "Sprite10",
 	"plugin-id": "Sprite",
-	"sid": 991829768807383,
+	"sid": 746600904376009,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 698655676238129
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 128,
+						"height": 128,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9539388,
+						"imageSpriteId": 8295049,
 						"collisionPoly": {
 							"points": [
-								0.21599999999999997,
-								0.38400000000000023,
-								0.7680000000000001,
-								0.2600000000000001,
-								0.9279999999999999,
-								0.28400000000000014,
-								0.9359999999999999,
-								0.5439999999999998,
-								0.2400000000000001,
-								0.5159999999999996
+								0,
+								0,
+								0.5,
+								0,
+								0.9921875,
+								0,
+								0.9921875,
+								0.5,
+								0.9921875,
+								0.9921875,
+								0.5,
+								0.9921875,
+								0,
+								0.9921875,
+								0,
+								0.5
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 693103795197492,
+				"sid": 862070297298992,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
