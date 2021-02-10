@@ -94,6 +94,7 @@
 					"id": "set-max-speed",
 					"objectClass": "Player",
 					"sid": 919179590334365,
+					"disabled": true,
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-speed": "1000"
@@ -127,6 +128,7 @@
 					"id": "set-max-speed",
 					"objectClass": "Player",
 					"sid": 885748692694623,
+					"disabled": true,
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-speed": "100"
@@ -152,6 +154,7 @@
 					"id": "set-max-speed",
 					"objectClass": "Player",
 					"sid": 579498482062721,
+					"disabled": true,
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-speed": "100"
@@ -185,6 +188,7 @@
 					"id": "set-max-speed",
 					"objectClass": "Player",
 					"sid": 590163074491258,
+					"disabled": true,
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-speed": "1000"
@@ -218,6 +222,7 @@
 					"id": "set-max-speed",
 					"objectClass": "Player",
 					"sid": 226205021237174,
+					"disabled": true,
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-speed": "100"
@@ -243,6 +248,7 @@
 					"id": "set-max-speed",
 					"objectClass": "Player",
 					"sid": 119332244878400,
+					"disabled": true,
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-speed": "100"
@@ -777,10 +783,10 @@
 				{
 					"id": "move-at-angle",
 					"objectClass": "enemy",
-					"sid": 540199696350944,
+					"sid": 818739457482854,
 					"parameters": {
 						"angle": "angle(enemy.X,enemy.Y,Player.X,Player.Y)",
-						"distance": "3"
+						"distance": "5"
 					}
 				},
 				{
