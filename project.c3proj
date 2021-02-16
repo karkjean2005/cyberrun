@@ -236,6 +236,31 @@
 					"name": "134991__zombiechaser3__running-sounds(short).webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 485686226598481
+				},
+				{
+					"name": "43806__daveincamas__siren.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 722830929885897
+				},
+				{
+					"name": "352852__josepharaoh99__game-style-laser-beam.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 775194478007465
+				},
+				{
+					"name": "zapsplat_science_fiction_weapon_gun_silenced_single_shot_002_56475.mp3",
+					"type": "audio/mpeg",
+					"sid": 113125563540453
+				},
+				{
+					"name": "skyclad_sound_bullet_wizz_by_sharp_rapid_whine_bass_165 (1).mp3",
+					"type": "audio/mpeg",
+					"sid": 269078615315433
+				},
+				{
+					"name": "Jump.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 398824201447097
 				}
 			],
 			"subfolders": []

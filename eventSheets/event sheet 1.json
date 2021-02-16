@@ -607,6 +607,17 @@
 						"variable": "wall_Jump",
 						"value": "1"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 915774864720177,
+					"parameters": {
+						"audio-file": "Jump",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 797545750292925
@@ -669,6 +680,17 @@
 						"variable": "wall_Jump",
 						"value": "1"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 421718245093354,
+					"parameters": {
+						"audio-file": "Jump",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 855122217442032
@@ -710,7 +732,6 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 772378616485411,
-					"disabled": true,
 					"parameters": {
 						"audio-file": "524309__bertsz__dark-cyberpunk-orchestral-music",
 						"loop": "not-looping",
@@ -806,6 +827,17 @@
 					"parameters": {
 						"target": "Player"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 570218297919449,
+					"parameters": {
+						"audio-file": "43806__daveincamas__siren",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 711838766748532
@@ -847,6 +879,17 @@
 						"layer": "1",
 						"image-point": "0",
 						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 505248857866484,
+					"parameters": {
+						"audio-file": "skyclad_sound_bullet_wizz_by_sharp_rapid_whine_bass_165 (1)",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
