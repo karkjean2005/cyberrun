@@ -271,12 +271,9 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout-by-name",
+					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 922934701752549,
-					"parameters": {
-						"layout": "\"Layout 2\""
-					}
+					"sid": 797125887572778
 				}
 			],
 			"sid": 334116435222460
@@ -838,6 +835,11 @@
 						"volume": "-10",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "stop-loop",
+					"objectClass": "System",
+					"sid": 813755007564152
 				}
 			],
 			"sid": 711838766748532
