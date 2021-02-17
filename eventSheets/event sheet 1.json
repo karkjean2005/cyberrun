@@ -919,6 +919,48 @@
 				}
 			],
 			"sid": 844441239962459
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 978679073837339,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-max-speed",
+					"objectClass": "Player",
+					"sid": 887859745002344,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-speed": "75"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 770783350386242,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-max-speed",
+					"objectClass": "Player",
+					"sid": 959660620560215,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-speed": "500"
+					}
+				}
+			],
+			"sid": 936616780409024
 		}
 	],
 	"sid": 442347107940901

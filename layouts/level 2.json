@@ -293,8 +293,8 @@
 						}
 					},
 					"world": {
-						"x": 87,
-						"y": 151,
+						"x": 26,
+						"y": 107,
 						"width": 51,
 						"height": 55,
 						"originX": 0.5,
@@ -337,7 +337,44 @@
 		{
 			"name": "UI",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "strut4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 69,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 44,
+						"y": 149,
+						"width": 28.36151897352866,
+						"height": 101.04481083455201,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5516350189565205,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 768673960278571,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
