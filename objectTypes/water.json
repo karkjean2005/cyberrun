@@ -1,17 +1,22 @@
 {
-	"name": "teleport2",
+	"name": "Water",
 	"plugin-id": "Sprite",
-	"sid": 180580726661828,
+	"sid": 163481178970018,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 312069803734846
+			"sid": 143793750640397
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "waterbg",
+			"name": "WaterBackground"
+		}
+	],
 	"animations": {
 		"items": [
 			{
@@ -24,12 +29,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2321131,
+						"imageSpriteId": 2658443,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 284103716184859,
+				"sid": 544199421350157,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

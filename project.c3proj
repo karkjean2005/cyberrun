@@ -125,6 +125,22 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "waterbg",
+			"name": "Water background",
+			"author": "Viktor Korsun",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "fghhzbz24mz",
@@ -189,7 +205,9 @@
 			"tech_deco2",
 			"strut3",
 			"strut4",
-			"TiledBackground19"
+			"TiledBackground19",
+			"Water",
+			"Raft"
 		],
 		"subfolders": []
 	},

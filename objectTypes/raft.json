@@ -1,14 +1,19 @@
 {
-	"name": "teleport2",
+	"name": "Raft",
 	"plugin-id": "Sprite",
-	"sid": 180580726661828,
+	"sid": 715122392665208,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 546139999417334
+		},
+		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 312069803734846
+			"sid": 480578688649240
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +29,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2321131,
+						"imageSpriteId": 7300282,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 284103716184859,
+				"sid": 159838456246626,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

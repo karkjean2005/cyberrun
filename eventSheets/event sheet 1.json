@@ -294,9 +294,9 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 999269706342914,
+					"sid": 338097890788297,
 					"parameters": {
-						"layout": "\"Layout 1\""
+						"layout": "\"Level 2\""
 					}
 				}
 			],
@@ -729,6 +729,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 772378616485411,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "524309__bertsz__dark-cyberpunk-orchestral-music",
 						"loop": "not-looping",
@@ -829,6 +830,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 570218297919449,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "43806__daveincamas__siren",
 						"loop": "not-looping",
@@ -919,6 +921,27 @@
 				}
 			],
 			"sid": 844441239962459
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 987680422513419,
+					"parameters": {
+						"object": "Water"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 594233789625732
+				}
+			],
+			"sid": 753551947361981
 		}
 	],
 	"sid": 442347107940901
