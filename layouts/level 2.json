@@ -50,8 +50,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -9,
-						"y": -7,
+						"x": -2,
+						"y": -15,
 						"width": 1297,
 						"height": 987,
 						"originX": 0,
@@ -244,10 +244,10 @@
 						}
 					},
 					"world": {
-						"x": 132,
-						"y": 199,
-						"width": 250,
-						"height": 45.15517263517924,
+						"x": 104,
+						"y": 204,
+						"width": 148.28874839647347,
+						"height": 80.097453304182,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -256,7 +256,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.244103117690554,
 						"zElevation": 0
 					}
 				},
@@ -264,7 +264,7 @@
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false

@@ -188,7 +188,8 @@
 			"tech_deco",
 			"tech_deco2",
 			"strut3",
-			"strut4"
+			"strut4",
+			"TiledBackground19"
 		],
 		"subfolders": []
 	},
@@ -203,7 +204,8 @@
 			"Level 2",
 			"Layout 1",
 			"Title Screen",
-			"Credits"
+			"Credits",
+			"HowtoplayScreen"
 		],
 		"subfolders": []
 	},
@@ -211,7 +213,8 @@
 		"items": [
 			"Event sheet 1",
 			"TitleEventSheet",
-			"Credits Event Sheet"
+			"Credits Event Sheet",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
@@ -422,5 +425,5 @@
 	},
 	"viewportWidth": 1280,
 	"viewportHeight": 960,
-	"firstLayout": "Layout 1"
+	"firstLayout": "Title Screen"
 }

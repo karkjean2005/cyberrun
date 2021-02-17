@@ -111,7 +111,7 @@
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -140,10 +140,10 @@
 						}
 					},
 					"world": {
-						"x": 86,
-						"y": 783,
-						"width": 119,
-						"height": 81,
+						"x": 77,
+						"y": 767.5,
+						"width": 101,
+						"height": 106,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -341,10 +341,10 @@
 						}
 					},
 					"world": {
-						"x": -206,
-						"y": 146,
-						"width": 250,
-						"height": 45.15517263517924,
+						"x": -252,
+						"y": 168.5,
+						"width": 158,
+						"height": 90.15517263517924,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -846,9 +846,9 @@
 						}
 					},
 					"world": {
-						"x": 990.0013130529496,
-						"y": 856.0746178955819,
-						"width": 513.9249480555944,
+						"x": 1061.9984883753455,
+						"y": 856.1409412366231,
+						"width": 657.9193597970142,
 						"height": 60.09938195703893,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -1152,9 +1152,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 4,
-						"y": 881,
-						"width": 1324,
-						"height": 127,
+						"y": 883,
+						"width": 1425,
+						"height": 125,
 						"originX": 0,
 						"originY": 0,
 						"color": [
