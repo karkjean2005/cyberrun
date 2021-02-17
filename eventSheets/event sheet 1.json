@@ -961,6 +961,27 @@
 				}
 			],
 			"sid": 936616780409024
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 663054415497448,
+					"parameters": {
+						"object": "enemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 633283356956070
+				}
+			],
+			"sid": 162160766605607
 		}
 	],
 	"sid": 442347107940901
