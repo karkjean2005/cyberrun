@@ -1021,7 +1021,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 10000,
+								"range": 300,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -1029,7 +1029,7 @@
 						"Turret": {
 							"properties": {
 								"range": 500,
-								"rate-of-fire": 500,
+								"rate-of-fire": 200,
 								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
@@ -1041,8 +1041,8 @@
 						}
 					},
 					"world": {
-						"x": 610,
-						"y": 66,
+						"x": 1259,
+						"y": 268,
 						"width": 96,
 						"height": 98,
 						"originX": 0.5,
@@ -1072,15 +1072,15 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 10000,
+								"range": 320,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
 						},
 						"Turret": {
 							"properties": {
-								"range": 500,
-								"rate-of-fire": 500,
+								"range": 800,
+								"rate-of-fire": 200,
 								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
@@ -1092,8 +1092,8 @@
 						}
 					},
 					"world": {
-						"x": 208,
-						"y": 143,
+						"x": 476,
+						"y": 74,
 						"width": 96,
 						"height": 98,
 						"originX": 0.5,
@@ -1244,57 +1244,6 @@
 							1
 						],
 						"angle": 4.716161932813682,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 70,
-					"instanceVariables": {},
-					"behaviors": {
-						"LineOfSight": {
-							"properties": {
-								"obstacles": "solids",
-								"range": 10000,
-								"cone-of-view": 360,
-								"use-collision-cells": true
-							}
-						},
-						"Turret": {
-							"properties": {
-								"range": 500,
-								"rate-of-fire": 500,
-								"rotate": true,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": true,
-								"projectile-speed": 500,
-								"use-collision-cells": true,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 947,
-						"y": 106,
-						"width": 96,
-						"height": 98,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				}

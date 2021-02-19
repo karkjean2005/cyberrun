@@ -416,10 +416,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Car",
-					"sid": 461148771926296,
+					"sid": 716917375801010,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "random(200,400)"
+						"speed": "random(200,250)"
 					}
 				}
 			],
