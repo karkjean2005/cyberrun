@@ -341,8 +341,8 @@
 						}
 					},
 					"world": {
-						"x": -252,
-						"y": 168.5,
+						"x": -504,
+						"y": 324,
 						"width": 158,
 						"height": 90.15517263517924,
 						"originX": 0.5,
@@ -1015,13 +1015,13 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 67,
+					"uid": 23,
 					"instanceVariables": {},
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 300,
+								"range": 275,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -1029,71 +1029,20 @@
 						"Turret": {
 							"properties": {
 								"range": 500,
-								"rate-of-fire": 200,
+								"rate-of-fire": 100,
 								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": true,
-								"projectile-speed": 500,
+								"projectile-speed": 300,
 								"use-collision-cells": true,
 								"enabled": true
 							}
 						}
 					},
 					"world": {
-						"x": 1259,
-						"y": 268,
-						"width": 96,
-						"height": 98,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 23,
-					"instanceVariables": {},
-					"behaviors": {
-						"LineOfSight": {
-							"properties": {
-								"obstacles": "solids",
-								"range": 320,
-								"cone-of-view": 360,
-								"use-collision-cells": true
-							}
-						},
-						"Turret": {
-							"properties": {
-								"range": 800,
-								"rate-of-fire": 200,
-								"rotate": true,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": true,
-								"projectile-speed": 500,
-								"use-collision-cells": true,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 476,
-						"y": 74,
+						"x": 254,
+						"y": 122,
 						"width": 96,
 						"height": 98,
 						"originX": 0.5,

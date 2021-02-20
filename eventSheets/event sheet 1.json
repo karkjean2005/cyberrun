@@ -394,9 +394,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 735672004792257,
+					"sid": 526243490381983,
 					"parameters": {
-						"interval-seconds": "2"
+						"interval-seconds": "3"
 					}
 				}
 			],
@@ -416,10 +416,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Car",
-					"sid": 716917375801010,
+					"sid": 403809216505613,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "random(200,250)"
+						"speed": "random(100,200)"
 					}
 				}
 			],
@@ -530,7 +530,8 @@
 					"sid": 952149152812820
 				}
 			],
-			"sid": 565805552781297
+			"sid": 565805552781297,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
