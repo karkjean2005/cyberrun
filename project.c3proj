@@ -189,7 +189,27 @@
 			"tech_deco2",
 			"strut3",
 			"strut4",
-			"TiledBackground19"
+			"TiledBackground19",
+			"Sprite12",
+			"Sprite13",
+			"Tilemap2",
+			"Text9",
+			"TiledBackground20",
+			"Menu_HTP",
+			"Sprite14",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"TiledBackground21",
+			"Sprite19",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22",
+			"Sprite23",
+			"Sprite24",
+			"Car2",
+			"Car3"
 		],
 		"subfolders": []
 	},
@@ -214,7 +234,9 @@
 			"Event sheet 1",
 			"TitleEventSheet",
 			"Credits Event Sheet",
-			"Event sheet 2"
+			"Event sheet 2",
+			"Event sheet 3",
+			"Event sheet 4"
 		],
 		"subfolders": []
 	},

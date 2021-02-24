@@ -1,7 +1,7 @@
 {
-	"name": "teleport1",
+	"name": "Sprite17",
 	"plugin-id": "Sprite",
-	"sid": 713732748558701,
+	"sid": 840621653237231,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8322423,
+						"imageSpriteId": 8842474,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -30,7 +30,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3193170,
+						"imageSpriteId": 1439677,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -42,12 +42,24 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4114807,
+						"imageSpriteId": 6473938,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6588820,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 133689484022336,
+				"sid": 601054789634222,
 				"name": "Animation 1",
 				"isLooping": true,
 				"isPingPong": false,

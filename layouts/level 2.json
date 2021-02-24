@@ -358,10 +358,10 @@
 						}
 					},
 					"world": {
-						"x": 44,
-						"y": 149,
+						"x": 75.03651111078976,
+						"y": 148.40522706316696,
 						"width": 28.36151897352866,
-						"height": 101.04481083455201,
+						"height": 163.12923003217566,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -371,6 +371,100 @@
 							1
 						],
 						"angle": 1.5516350189565205,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Car2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 92,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 200,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": -161,
+						"y": 320,
+						"width": 148.28874839647347,
+						"height": 80.097453304182,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.3044109197980516,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Car3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 93,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 200,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": -541,
+						"y": 83,
+						"width": 148.28874839647347,
+						"height": 80.097453304182,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.3044109197980516,
 						"zElevation": 0
 					}
 				}

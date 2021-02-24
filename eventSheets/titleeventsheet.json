@@ -93,6 +93,30 @@
 				}
 			],
 			"sid": 262645670527298
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 880636387335252,
+					"parameters": {
+						"object": "HowtoplayText"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 979117961942181,
+					"parameters": {
+						"layout": "HowtoplayScreen"
+					}
+				}
+			],
+			"sid": 505456118951073
 		}
 	],
 	"sid": 585201477906770

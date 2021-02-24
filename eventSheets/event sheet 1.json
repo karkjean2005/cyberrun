@@ -271,9 +271,12 @@
 			],
 			"actions": [
 				{
-					"id": "restart-layout",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 797125887572778
+					"sid": 880080400919748,
+					"parameters": {
+						"layout": "Level 2"
+					}
 				}
 			],
 			"sid": 334116435222460
