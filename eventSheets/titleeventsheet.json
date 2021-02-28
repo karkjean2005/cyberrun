@@ -19,7 +19,7 @@
 					"objectClass": "System",
 					"sid": 778043453519804,
 					"parameters": {
-						"layout": "Layout 1"
+						"layout": "Level 1"
 					}
 				}
 			],
@@ -93,6 +93,30 @@
 				}
 			],
 			"sid": 262645670527298
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 210131127306543,
+					"parameters": {
+						"object": "HowtoplayText"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 444303969498025,
+					"parameters": {
+						"layout": "Tutorial"
+					}
+				}
+			],
+			"sid": 245670221784040
 		}
 	],
 	"sid": 585201477906770

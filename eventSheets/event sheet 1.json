@@ -271,9 +271,12 @@
 			],
 			"actions": [
 				{
-					"id": "restart-layout",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 797125887572778
+					"sid": 703941150878745,
+					"parameters": {
+						"layout": "Level 2"
+					}
 				}
 			],
 			"sid": 334116435222460
@@ -294,9 +297,9 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 338097890788297,
+					"sid": 503817681985020,
 					"parameters": {
-						"layout": "\"Level 2\""
+						"layout": "\"Level 3\""
 					}
 				}
 			],
@@ -424,29 +427,6 @@
 				}
 			],
 			"sid": 243046338662321
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 409668997220525,
-					"parameters": {
-						"object": "Sprite"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 654153345166597,
-					"disabled": true
-				}
-			],
-			"sid": 255403311326109,
-			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -942,6 +922,30 @@
 				}
 			],
 			"sid": 753551947361981
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 703380109864776,
+					"parameters": {
+						"object": "Goal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 511599733991935,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 647188232086006
 		}
 	],
 	"sid": 442347107940901

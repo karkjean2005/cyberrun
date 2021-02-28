@@ -207,7 +207,12 @@
 			"strut4",
 			"TiledBackground19",
 			"Water",
-			"Raft"
+			"Raft",
+			"Sprite12",
+			"Sprite13",
+			"Instructions1",
+			"InStructions2",
+			"Goal"
 		],
 		"subfolders": []
 	},
@@ -220,10 +225,11 @@
 	"layouts": {
 		"items": [
 			"Level 2",
-			"Layout 1",
+			"Level 3",
+			"Level 1",
 			"Title Screen",
 			"Credits",
-			"HowtoplayScreen"
+			"Tutorial"
 		],
 		"subfolders": []
 	},
