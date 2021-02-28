@@ -133,9 +133,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.01568627450980392,
 							0,
-							1,
+							0,
+							0,
 							1
 						],
 						"horizontal-alignment": "left",

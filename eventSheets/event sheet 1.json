@@ -273,7 +273,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 880080400919748,
+					"sid": 703941150878745,
 					"parameters": {
 						"layout": "Level 2"
 					}
@@ -297,9 +297,9 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 999269706342914,
+					"sid": 503817681985020,
 					"parameters": {
-						"layout": "\"Layout 1\""
+						"layout": "\"Level 3\""
 					}
 				}
 			],
@@ -397,9 +397,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 526243490381983,
+					"sid": 735672004792257,
 					"parameters": {
-						"interval-seconds": "3"
+						"interval-seconds": "2"
 					}
 				}
 			],
@@ -419,37 +419,14 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Car",
-					"sid": 403809216505613,
+					"sid": 461148771926296,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "random(100,200)"
+						"speed": "random(200,400)"
 					}
 				}
 			],
 			"sid": 243046338662321
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 409668997220525,
-					"parameters": {
-						"object": "Sprite"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 654153345166597,
-					"disabled": true
-				}
-			],
-			"sid": 255403311326109,
-			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -533,8 +510,7 @@
 					"sid": 952149152812820
 				}
 			],
-			"sid": 565805552781297,
-			"disabled": true
+			"sid": 565805552781297
 		},
 		{
 			"eventType": "block",
@@ -733,6 +709,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 772378616485411,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "524309__bertsz__dark-cyberpunk-orchestral-music",
 						"loop": "not-looping",
@@ -833,6 +810,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 570218297919449,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "43806__daveincamas__siren",
 						"loop": "not-looping",
@@ -930,51 +908,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 978679073837339,
+					"sid": 987680422513419,
 					"parameters": {
-						"object": "Sprite3"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-max-speed",
-					"objectClass": "Player",
-					"sid": 887859745002344,
-					"behaviorType": "Platform",
-					"parameters": {
-						"max-speed": "75"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 770783350386242,
-					"parameters": {
-						"seconds": "2"
-					}
-				},
-				{
-					"id": "set-max-speed",
-					"objectClass": "Player",
-					"sid": 959660620560215,
-					"behaviorType": "Platform",
-					"parameters": {
-						"max-speed": "500"
-					}
-				}
-			],
-			"sid": 936616780409024
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 663054415497448,
-					"parameters": {
-						"object": "enemy"
+						"object": "Water"
 					}
 				}
 			],
@@ -982,10 +918,34 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 633283356956070
+					"sid": 594233789625732
 				}
 			],
-			"sid": 162160766605607
+			"sid": 753551947361981
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 703380109864776,
+					"parameters": {
+						"object": "Goal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 511599733991935,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 647188232086006
 		}
 	],
 	"sid": 442347107940901
