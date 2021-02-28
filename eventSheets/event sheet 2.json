@@ -1,5 +1,30 @@
 {
 	"name": "Event sheet 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 825017625648848,
+					"parameters": {
+						"object": "Menu_HTP"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 923049170350439,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 234472709618953
+		}
+	],
 	"sid": 516955041567118
 }

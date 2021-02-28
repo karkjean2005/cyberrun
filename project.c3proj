@@ -125,22 +125,6 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Sin",
-			"name": "Sine",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "effect",
-			"id": "waterbg",
-			"name": "Water background",
-			"author": "Viktor Korsun",
-			"version": "r234.4",
-			"bundled": false
 		}
 	],
 	"uniqueId": "fghhzbz24mz",
@@ -206,13 +190,26 @@
 			"strut3",
 			"strut4",
 			"TiledBackground19",
-			"Water",
-			"Raft",
 			"Sprite12",
 			"Sprite13",
-			"Instructions1",
-			"InStructions2",
-			"Goal"
+			"Tilemap2",
+			"Text9",
+			"TiledBackground20",
+			"Menu_HTP",
+			"Sprite14",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"TiledBackground21",
+			"Sprite19",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22",
+			"Sprite23",
+			"Sprite24",
+			"Car2",
+			"Car3"
 		],
 		"subfolders": []
 	},
@@ -225,11 +222,10 @@
 	"layouts": {
 		"items": [
 			"Level 2",
-			"Level 3",
-			"Level 1",
+			"Layout 1",
 			"Title Screen",
 			"Credits",
-			"Tutorial"
+			"HowtoplayScreen"
 		],
 		"subfolders": []
 	},
@@ -238,7 +234,9 @@
 			"Event sheet 1",
 			"TitleEventSheet",
 			"Credits Event Sheet",
-			"Event sheet 2"
+			"Event sheet 2",
+			"Event sheet 3",
+			"Event sheet 4"
 		],
 		"subfolders": []
 	},
