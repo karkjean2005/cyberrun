@@ -946,6 +946,30 @@
 				}
 			],
 			"sid": 647188232086006
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 275149702212160,
+					"parameters": {
+						"object": "Teleport3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 380005862172362,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 900956723049841
 		}
 	],
 	"sid": 442347107940901

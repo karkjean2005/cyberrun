@@ -212,7 +212,10 @@
 			"Sprite13",
 			"Instructions1",
 			"InStructions2",
-			"Goal"
+			"Goal",
+			"Teleport3",
+			"Sprite14",
+			"Sprite15"
 		],
 		"subfolders": []
 	},

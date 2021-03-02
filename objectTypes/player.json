@@ -29,41 +29,6 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5249020,
-						"collisionPoly": {
-							"points": [
-								0.2119999999999999,
-								0,
-								0.6879999999999997,
-								0,
-								0.6839999999999997,
-								1,
-								0.21200000000000008,
-								1
-							]
-						},
-						"useCollisionPoly": true,
-						"duration": 1
-					}
-				],
-				"sid": 609647562603135,
-				"name": "Idle",
-				"isLooping": false,
-				"isPingPong": false,
-				"repeatCount": 1,
-				"repeatTo": 0,
-				"speed": 5
-			},
-			{
-				"frames": [
-					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
 						"imageSpriteId": 5398527,
 						"collisionPoly": {
 							"points": [
@@ -83,38 +48,6 @@
 								1,
 								0.20400000000000007,
 								0.46799999999999997
-							]
-						},
-						"useCollisionPoly": true,
-						"duration": 1
-					},
-					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 8645548,
-						"collisionPoly": {
-							"points": [
-								0.26633333333333337,
-								0,
-								0.472,
-								0,
-								0.6879999999999997,
-								0,
-								0.6919999999999997,
-								0,
-								0.6879999999999997,
-								1,
-								0.6440000000000001,
-								1,
-								0.1920000000000001,
-								1,
-								0.192,
-								0
 							]
 						},
 						"useCollisionPoly": true,
@@ -222,6 +155,41 @@
 				"sid": 816011847257282,
 				"name": "Walk",
 				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5249020,
+						"collisionPoly": {
+							"points": [
+								0.2119999999999999,
+								0,
+								0.6879999999999997,
+								0,
+								0.6839999999999997,
+								1,
+								0.21200000000000008,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 609647562603135,
+				"name": "Idle",
+				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

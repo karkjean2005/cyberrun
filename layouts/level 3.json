@@ -149,42 +149,6 @@
 					}
 				},
 				{
-					"type": "teleport2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 1242.5,
-						"y": 727,
-						"width": 79,
-						"height": 206,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
@@ -300,8 +264,8 @@
 						}
 					},
 					"world": {
-						"x": 85.94676775456585,
-						"y": 132.27309359801723,
+						"x": 130,
+						"y": 125,
 						"width": 86.5479059452795,
 						"height": 93.33597699981121,
 						"originX": 0.5,
@@ -459,9 +423,9 @@
 					},
 					"world": {
 						"x": 383,
-						"y": 859,
-						"width": 165,
-						"height": -40,
+						"y": 853,
+						"width": 172,
+						"height": 51,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -700,10 +664,10 @@
 						}
 					},
 					"world": {
-						"x": 875,
-						"y": 857,
-						"width": 165,
-						"height": -40,
+						"x": 815,
+						"y": 852,
+						"width": 186.33401886878008,
+						"height": 60.72871541421307,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -712,7 +676,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.02179306296986816,
 						"zElevation": 0
 					}
 				}
@@ -780,10 +744,39 @@
 						}
 					},
 					"world": {
-						"x": 646,
-						"y": 988,
+						"x": 664,
+						"y": 985,
 						"width": 1467,
 						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Teleport3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1253,
+						"y": 791.5,
+						"width": 104,
+						"height": 82,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
