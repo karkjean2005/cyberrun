@@ -498,6 +498,7 @@
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
 					"sid": 472300154224465,
+					"disabled": true,
 					"parameters": {
 						"object": "Sprite2"
 					}
@@ -507,7 +508,8 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 952149152812820
+					"sid": 952149152812820,
+					"disabled": true
 				}
 			],
 			"sid": 565805552781297
