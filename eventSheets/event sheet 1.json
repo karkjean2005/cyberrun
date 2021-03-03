@@ -710,17 +710,37 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 772378616485411,
-					"disabled": true,
+					"sid": 725295828735123,
 					"parameters": {
-						"audio-file": "524309__bertsz__dark-cyberpunk-orchestral-music",
-						"loop": "not-looping",
+						"audio-file": "Infraction-Cyber-Attack-pr",
+						"loop": "looping",
 						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				}
 			],
 			"sid": 106712920686527
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 389311898292442
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 864853609016617,
+					"parameters": {
+						"tag": "\"\""
+					}
+				}
+			],
+			"sid": 211162106725960
 		},
 		{
 			"eventType": "block",
@@ -811,12 +831,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 570218297919449,
-					"disabled": true,
+					"sid": 399022069402911,
 					"parameters": {
 						"audio-file": "43806__daveincamas__siren",
 						"loop": "not-looping",
-						"volume": "-10",
+						"volume": "-30",
 						"tag-optional": "\"\""
 					}
 				},
@@ -965,9 +984,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 380005862172362,
+					"sid": 348885719637341,
 					"parameters": {
-						"layout": "Title Screen"
+						"layout": "Credits"
 					}
 				}
 			],
