@@ -587,8 +587,8 @@
 						}
 					},
 					"world": {
-						"x": 114,
-						"y": 655,
+						"x": 66,
+						"y": 716,
 						"width": 74.39111328545269,
 						"height": 78.07384166592065,
 						"originX": 0.5,
@@ -2276,6 +2276,57 @@
 						"y": 57,
 						"width": 59,
 						"height": 167,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 78,
+					"instanceVariables": {},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 1000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 92,
+						"y": 95,
+						"width": 96,
+						"height": 98,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

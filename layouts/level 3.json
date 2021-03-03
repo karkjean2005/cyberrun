@@ -265,7 +265,7 @@
 					},
 					"world": {
 						"x": 73,
-						"y": 665,
+						"y": 689,
 						"width": 86.5479059452795,
 						"height": 93.33597699981121,
 						"originX": 0.5,
@@ -686,8 +686,8 @@
 						}
 					},
 					"world": {
-						"x": 580,
-						"y": 818,
+						"x": 590,
+						"y": 819,
 						"width": 186.33401886878008,
 						"height": 60.72871541421307,
 						"originX": 0.5,
@@ -722,9 +722,9 @@
 						}
 					},
 					"world": {
-						"x": 202,
-						"y": 547,
-						"width": 162.94259965641166,
+						"x": 28,
+						"y": 539,
+						"width": 145.94259965641166,
 						"height": 59.675284338666415,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -758,46 +758,10 @@
 						}
 					},
 					"world": {
-						"x": 202,
-						"y": 710,
+						"x": 190,
+						"y": 708,
 						"width": 162.94259965641166,
 						"height": 59.53490802698519,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.71238898038469,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 223,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 202,
-						"y": 418.5,
-						"width": 94.94260092930747,
-						"height": 59.67528433866647,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -831,8 +795,8 @@
 					},
 					"world": {
 						"x": 28.99999999999999,
-						"y": 284,
-						"width": 282.94259965641163,
+						"y": 210,
+						"width": 178.94259965641163,
 						"height": 59.675284338666415,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -867,8 +831,8 @@
 					},
 					"world": {
 						"x": 28.99999999999999,
-						"y": 447,
-						"width": 282.94259965641163,
+						"y": 381,
+						"width": 170.94259965641163,
 						"height": 59.53490802698519,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -902,10 +866,46 @@
 						}
 					},
 					"world": {
-						"x": 28.99999999999999,
-						"y": 123,
-						"width": 279.94260092930745,
+						"x": 28.999999999999975,
+						"y": 52,
+						"width": 137.94260092930745,
 						"height": 59.67528433866647,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 79,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 190,
+						"y": 555,
+						"width": 145.94259965641166,
+						"height": 59.675284338666415,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1015,6 +1015,57 @@
 						"y": 778.5,
 						"width": 104,
 						"height": 109,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 186,
+					"instanceVariables": {},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 400,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 833,
+						"y": 126,
+						"width": 96,
+						"height": 98,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
