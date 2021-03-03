@@ -534,8 +534,8 @@
 	"sid": 808778614863402,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 2560,
-	"height": 1920,
+	"width": 1280,
+	"height": 960,
 	"unboundedScrolling": false,
 	"eventSheet": "TitleEventSheet"
 }
