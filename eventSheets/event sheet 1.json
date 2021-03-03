@@ -831,11 +831,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 399022069402911,
+					"sid": 280483935979642,
 					"parameters": {
 						"audio-file": "43806__daveincamas__siren",
 						"loop": "not-looping",
-						"volume": "-30",
+						"volume": "-45",
 						"tag-optional": "\"\""
 					}
 				},
@@ -991,6 +991,27 @@
 				}
 			],
 			"sid": 900956723049841
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 693133950978818,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 682904260703580
+				}
+			],
+			"sid": 781758291546587
 		}
 	],
 	"sid": 442347107940901
