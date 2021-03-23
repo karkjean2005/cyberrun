@@ -14,6 +14,11 @@
 			"behaviorId": "Turret",
 			"name": "Turret",
 			"sid": 717217469236819
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 602179462082716
 		}
 	],
 	"effectTypes": [],
