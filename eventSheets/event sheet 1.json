@@ -599,7 +599,6 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 222758742128350,
-					"disabled": true,
 					"parameters": {
 						"audio-file": "134991__zombiechaser3__running-sounds",
 						"loop": "looping",
@@ -644,9 +643,21 @@
 			],
 			"actions": [
 				{
+					"id": "move-to-object",
+					"objectClass": "enemy",
+					"sid": 645150519371344,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				},
+				{
 					"id": "move-at-angle",
 					"objectClass": "enemy",
 					"sid": 495606258980894,
+					"disabled": true,
 					"parameters": {
 						"angle": "angle(enemy.X,enemy.Y,Player.X,Player.Y)",
 						"distance": "5"
