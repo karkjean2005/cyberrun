@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 23404,
+	"savedWithRelease": 24100,
 	"name": "Prototype",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Touch",
 			"name": "Touch",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "Fade",
 			"name": "Fade",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "Timer",
 			"name": "Timer",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "LOS",
 			"name": "Line of sight",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -123,7 +123,7 @@
 			"id": "Turret",
 			"name": "Turret",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -131,7 +131,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -139,7 +139,7 @@
 			"id": "waterbg",
 			"name": "Water background",
 			"author": "Viktor Korsun",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		}
 	],
