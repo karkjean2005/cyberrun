@@ -278,6 +278,7 @@
 					"id": "set-position-to-another-object",
 					"objectClass": "Sprite2",
 					"sid": 314367139387704,
+					"disabled": true,
 					"parameters": {
 						"object": "Car",
 						"image-point-optional": "1"
@@ -315,6 +316,7 @@
 							"id": "spawn-another-object",
 							"objectClass": "Car",
 							"sid": 156953136676018,
+							"disabled": true,
 							"parameters": {
 								"object": "Sprite2",
 								"layer": "1",
