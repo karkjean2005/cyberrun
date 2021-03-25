@@ -233,9 +233,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 735672004792257,
+					"sid": 452989956188371,
 					"parameters": {
-						"interval-seconds": "2"
+						"interval-seconds": "6"
 					}
 				}
 			],
@@ -255,10 +255,10 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Car",
-					"sid": 461148771926296,
+					"sid": 375567386824680,
 					"behaviorType": "Bullet",
 					"parameters": {
-						"speed": "random(200,400)"
+						"speed": "random(150,250)"
 					}
 				}
 			],
@@ -278,7 +278,6 @@
 					"id": "set-position-to-another-object",
 					"objectClass": "Sprite2",
 					"sid": 314367139387704,
-					"disabled": true,
 					"parameters": {
 						"object": "Car",
 						"image-point-optional": "1"
@@ -298,6 +297,7 @@
 			],
 			"actions": [],
 			"sid": 772772185444386,
+			"disabled": true,
 			"children": [
 				{
 					"eventType": "block",
@@ -316,7 +316,6 @@
 							"id": "spawn-another-object",
 							"objectClass": "Car",
 							"sid": 156953136676018,
-							"disabled": true,
 							"parameters": {
 								"object": "Sprite2",
 								"layer": "1",
@@ -325,7 +324,8 @@
 							}
 						}
 					],
-					"sid": 978963246734992
+					"sid": 978963246734992,
+					"disabled": true
 				}
 			]
 		},
@@ -636,6 +636,7 @@
 					"id": "has-los-to-object",
 					"objectClass": "enemy",
 					"sid": 620461875759560,
+					"disabled": true,
 					"behaviorType": "LineOfSight",
 					"parameters": {
 						"object": "Player",
@@ -648,6 +649,7 @@
 					"id": "move-to-object",
 					"objectClass": "enemy",
 					"sid": 645150519371344,
+					"disabled": true,
 					"behaviorType": "MoveTo",
 					"parameters": {
 						"object": "Player",
@@ -669,6 +671,7 @@
 					"id": "add-object-to-target",
 					"objectClass": "enemy",
 					"sid": 973865352814164,
+					"disabled": true,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
@@ -678,6 +681,7 @@
 					"id": "acquire-target",
 					"objectClass": "enemy",
 					"sid": 110092551925366,
+					"disabled": true,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
@@ -687,6 +691,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 280483935979642,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "43806__daveincamas__siren",
 						"loop": "not-looping",
@@ -697,7 +702,8 @@
 				{
 					"id": "stop-loop",
 					"objectClass": "System",
-					"sid": 813755007564152
+					"sid": 813755007564152,
+					"disabled": true
 				}
 			],
 			"sid": 711838766748532
@@ -709,12 +715,14 @@
 					"id": "has-target",
 					"objectClass": "enemy",
 					"sid": 305651195911905,
+					"disabled": true,
 					"behaviorType": "Turret"
 				},
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
 					"sid": 233295534331168,
+					"disabled": true,
 					"parameters": {
 						"interval-seconds": "1"
 					}
@@ -725,6 +733,7 @@
 					"id": "set-rate-of-fire",
 					"objectClass": "enemy",
 					"sid": 802133613228211,
+					"disabled": true,
 					"behaviorType": "Turret",
 					"parameters": {
 						"rate-of-fire": "1"
@@ -734,6 +743,7 @@
 					"id": "spawn-another-object",
 					"objectClass": "enemy",
 					"sid": 802637255270048,
+					"disabled": true,
 					"parameters": {
 						"object": "Sprite3",
 						"layer": "1",
@@ -745,6 +755,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 505248857866484,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "skyclad_sound_bullet_wizz_by_sharp_rapid_whine_bass_165 (1)",
 						"loop": "not-looping",

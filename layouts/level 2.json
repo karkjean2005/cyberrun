@@ -301,7 +301,7 @@
 						},
 						"Bullet": {
 							"properties": {
-								"speed": 200,
+								"speed": 300,
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
@@ -341,10 +341,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -16,
-						"y": 288,
-						"width": 99.66551522767787,
-						"height": 73.20103911089896,
+						"x": -360.5,
+						"y": 107,
+						"width": 70.66551522767787,
+						"height": 61.20103911089896,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
