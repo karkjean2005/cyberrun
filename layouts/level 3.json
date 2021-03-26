@@ -1013,8 +1013,8 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
+								"max-speed": 100,
+								"acceleration": 50,
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,

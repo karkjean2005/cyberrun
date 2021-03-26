@@ -748,7 +748,7 @@
 						},
 						"Bullet": {
 							"properties": {
-								"speed": 300,
+								"speed": 112,
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
@@ -759,8 +759,8 @@
 						}
 					},
 					"world": {
-						"x": -215,
-						"y": 267,
+						"x": -156,
+						"y": 567,
 						"width": 158,
 						"height": 90.15517263517924,
 						"originX": 0.5,
@@ -1396,7 +1396,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 10000,
+								"range": 800,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -1416,8 +1416,8 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
+								"max-speed": 100,
+								"acceleration": 50,
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
@@ -1458,7 +1458,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 10000,
+								"range": 800,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -1478,8 +1478,8 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
+								"max-speed": 100,
+								"acceleration": 50,
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
@@ -2325,7 +2325,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 1000,
+								"range": 10000,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -2345,8 +2345,8 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
+								"max-speed": 100,
+								"acceleration": 50,
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
