@@ -127,7 +127,7 @@
 								"jump-strength": 650,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
-								"double-jump": true,
+								"double-jump": false,
 								"jump-sustain": 0,
 								"default-controls": true,
 								"enabled": true
