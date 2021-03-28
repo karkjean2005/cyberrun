@@ -199,7 +199,7 @@
 				{
 					"type": "InStructions2",
 					"properties": {
-						"text": "While holding down right, tap left to perform a wall jump. (You do the opposite if holding down left) ",
+						"text": "While holding down right, tap jump to perform a wall jump. (You do the same thing if holding down left.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 33.90000000000005,
