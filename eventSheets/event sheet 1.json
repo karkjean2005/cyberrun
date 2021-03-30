@@ -376,11 +376,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 455843903167969,
+							"sid": 702917071839054,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
-								"volume": "0",
+								"volume": "-10",
 								"tag-optional": "\"\""
 							}
 						}
@@ -453,6 +453,17 @@
 							"sid": 725114979581262,
 							"parameters": {
 								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 524120089208661,
+							"parameters": {
+								"audio-file": "Jump",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -552,7 +563,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 725295828735123,
+					"sid": 424562169630178,
 					"parameters": {
 						"audio-file": "Infraction-Cyber-Attack-pr",
 						"loop": "looping",
@@ -574,12 +585,9 @@
 			],
 			"actions": [
 				{
-					"id": "stop",
+					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 864853609016617,
-					"parameters": {
-						"tag": "\"\""
-					}
+					"sid": 758180453805574
 				}
 			],
 			"sid": 211162106725960
@@ -594,19 +602,7 @@
 					"behaviorType": "Platform"
 				}
 			],
-			"actions": [
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 222758742128350,
-					"parameters": {
-						"audio-file": "134991__zombiechaser3__running-sounds",
-						"loop": "looping",
-						"volume": "0",
-						"tag-optional": "\"\""
-					}
-				}
-			],
+			"actions": [],
 			"sid": 798801994812886
 		},
 		{
@@ -741,11 +737,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 505248857866484,
+					"sid": 609453816510065,
 					"parameters": {
 						"audio-file": "skyclad_sound_bullet_wizz_by_sharp_rapid_whine_bass_165 (1)",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				}
