@@ -812,6 +812,30 @@
 				}
 			],
 			"sid": 836344959158556
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 422467675674088,
+					"parameters": {
+						"object": "Tutorialmenubutton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 285450653493275,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 947863467907648
 		}
 	],
 	"sid": 744891374181269

@@ -223,7 +223,10 @@
 			"Goal",
 			"Teleport3",
 			"Sprite14",
-			"Sprite15"
+			"Sprite15",
+			"Tutorialmenubutton",
+			"Sprite16",
+			"TiledBackground20"
 		],
 		"subfolders": []
 	},
@@ -240,7 +243,8 @@
 			"Level 1",
 			"Title Screen",
 			"Credits",
-			"Tutorial"
+			"Tutorial",
+			"Layout 1"
 		],
 		"subfolders": []
 	},
