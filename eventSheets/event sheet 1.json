@@ -607,7 +607,8 @@
 					}
 				}
 			],
-			"sid": 798801994812886
+			"sid": 798801994812886,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
