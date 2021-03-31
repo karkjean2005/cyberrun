@@ -223,7 +223,10 @@
 			"Goal",
 			"Teleport3",
 			"Sprite14",
-			"Sprite15"
+			"Sprite15",
+			"Tutorialmenubutton",
+			"Sprite16",
+			"TiledBackground20"
 		],
 		"subfolders": []
 	},
@@ -240,7 +243,8 @@
 			"Level 1",
 			"Title Screen",
 			"Credits",
-			"Tutorial"
+			"Tutorial",
+			"Layout 1"
 		],
 		"subfolders": []
 	},
@@ -299,6 +303,16 @@
 					"name": "Jump.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 398824201447097
+				},
+				{
+					"name": "glitchedtones_Teleportation+02.mp3",
+					"type": "audio/mpeg",
+					"sid": 531374865764062
+				},
+				{
+					"name": "glitchedtones_Teleportation+05.mp3",
+					"type": "audio/mpeg",
+					"sid": 115347390903537
 				}
 			],
 			"subfolders": []

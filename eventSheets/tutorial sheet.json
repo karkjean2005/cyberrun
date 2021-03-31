@@ -276,11 +276,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 209840428263436,
+							"sid": 393236510889005,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
-								"volume": "0",
+								"volume": "-10",
 								"tag-optional": "\"\""
 							}
 						}
@@ -474,12 +474,9 @@
 			],
 			"actions": [
 				{
-					"id": "stop",
+					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 338507434145095,
-					"parameters": {
-						"tag": "\"\""
-					}
+					"sid": 724332786628539
 				}
 			],
 			"sid": 807396201712490
@@ -507,7 +504,8 @@
 					}
 				}
 			],
-			"sid": 457478443150685
+			"sid": 457478443150685,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -812,6 +810,30 @@
 				}
 			],
 			"sid": 836344959158556
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 422467675674088,
+					"parameters": {
+						"object": "Tutorialmenubutton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 285450653493275,
+					"parameters": {
+						"layout": "Title Screen"
+					}
+				}
+			],
+			"sid": 947863467907648
 		}
 	],
 	"sid": 744891374181269

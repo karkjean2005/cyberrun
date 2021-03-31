@@ -29,7 +29,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8156876,
+						"imageSpriteId": 5602980,
 						"collisionPoly": {
 							"points": [
 								0.7959999999999999,
@@ -61,7 +61,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5017932,
+						"imageSpriteId": 4092606,
 						"collisionPoly": {
 							"points": [
 								0.8039999999999999,
@@ -93,7 +93,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2164941,
+						"imageSpriteId": 1431235,
 						"collisionPoly": {
 							"points": [
 								0.7999999999999999,
@@ -127,7 +127,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6984735,
+						"imageSpriteId": 5962364,
 						"collisionPoly": {
 							"points": [
 								0.7376666666666667,
@@ -170,7 +170,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5227725,
+						"imageSpriteId": 8546096,
 						"collisionPoly": {
 							"points": [
 								0.7879999999999999,
@@ -205,13 +205,25 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5727084,
+						"imageSpriteId": 7338029,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
 				"sid": 382611378033599,
-				"name": "Jump",
+				"name": "wall",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

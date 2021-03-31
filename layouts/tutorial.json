@@ -751,7 +751,37 @@
 		{
 			"name": "UI",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "Tutorialmenubutton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 50,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1244,
+						"y": 763,
+						"width": 136,
+						"height": 130,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 341920173925611,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
