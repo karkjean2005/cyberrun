@@ -359,7 +359,6 @@
 							"id": "set-max-fall-speed",
 							"objectClass": "Player",
 							"sid": 305354972484127,
-							"disabled": true,
 							"behaviorType": "Platform",
 							"parameters": {
 								"max-fall-speed": "50"
@@ -371,6 +370,15 @@
 							"sid": 804932191735987,
 							"parameters": {
 								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 904781601572315,
+							"parameters": {
+								"animation": "\"wall\"",
+								"from": "beginning"
 							}
 						},
 						{
@@ -441,10 +449,18 @@
 							"id": "set-max-fall-speed",
 							"objectClass": "Player",
 							"sid": 962545172936915,
-							"disabled": true,
 							"behaviorType": "Platform",
 							"parameters": {
 								"max-fall-speed": "50"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 108110328527271,
+							"parameters": {
+								"animation": "\"wall\"",
+								"from": "beginning"
 							}
 						},
 						{
