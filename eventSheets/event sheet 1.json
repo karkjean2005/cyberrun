@@ -23,26 +23,8 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 803799741116416,
-					"parameters": {
-						"key": 39
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "Player",
-					"sid": 956298523396770,
-					"parameters": {
-						"state": "mirrored"
-					}
-				}
-			],
+			"conditions": [],
+			"actions": [],
 			"sid": 494227021952958
 		},
 		{

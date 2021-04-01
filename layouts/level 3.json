@@ -1318,6 +1318,12 @@
 								"stop-on-solids": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {

@@ -19,6 +19,11 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 602179462082716
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 178654366562687
 		}
 	],
 	"effectTypes": [],

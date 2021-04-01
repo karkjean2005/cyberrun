@@ -821,6 +821,12 @@
 								"stop-on-solids": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
@@ -882,6 +888,12 @@
 								"set-angle": true,
 								"stop-on-solids": false,
 								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -2599,11 +2611,17 @@
 								"stop-on-solids": false,
 								"enabled": true
 							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
 						}
 					},
 					"world": {
-						"x": 53,
-						"y": 474,
+						"x": 60,
+						"y": 477,
 						"width": 96,
 						"height": 98,
 						"originX": 0.5,
