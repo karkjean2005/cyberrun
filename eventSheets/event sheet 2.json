@@ -1,31 +1,31 @@
 {
-	"name": "Event sheet 1",
+	"name": "Event sheet 2",
 	"events": [
 		{
 			"eventType": "variable",
-			"name": "wall_Jump",
+			"name": "wall_Jump3",
 			"type": "number",
 			"initialValue": "0",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 118300923625781
+			"sid": 824028017237827
 		},
 		{
 			"eventType": "variable",
-			"name": "Timer",
+			"name": "Timer3",
 			"type": "number",
 			"initialValue": "0",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 600311987806144
+			"sid": 568630242869805
 		},
 		{
 			"eventType": "block",
 			"conditions": [],
 			"actions": [],
-			"sid": 494227021952958
+			"sid": 884502986852755
 		},
 		{
 			"eventType": "block",
@@ -33,7 +33,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 112698597825042,
+					"sid": 907204051310588,
 					"parameters": {
 						"key": 39
 					}
@@ -43,13 +43,13 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Player",
-					"sid": 246191584995787,
+					"sid": 630134115084547,
 					"parameters": {
 						"state": "not-mirrored"
 					}
 				}
 			],
-			"sid": 939833396637772
+			"sid": 240908123724647
 		},
 		{
 			"eventType": "block",
@@ -57,7 +57,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 692130651614982,
+					"sid": 784890604608885,
 					"parameters": {
 						"key": 37
 					}
@@ -67,13 +67,13 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Player",
-					"sid": 606489161406657,
+					"sid": 492150277501254,
 					"parameters": {
 						"state": "mirrored"
 					}
 				}
 			],
-			"sid": 736809879557086
+			"sid": 618478228226036
 		},
 		{
 			"eventType": "block",
@@ -81,7 +81,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 769679700468097,
+					"sid": 313374413312405,
 					"parameters": {
 						"object": "teleport1"
 					}
@@ -91,13 +91,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 703941150878745,
+					"sid": 384406815983831,
 					"parameters": {
 						"layout": "Level 2"
 					}
 				}
 			],
-			"sid": 334116435222460
+			"sid": 519033435913687
 		},
 		{
 			"eventType": "block",
@@ -105,7 +105,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 241394636870367,
+					"sid": 208248157907785,
 					"parameters": {
 						"object": "teleport2"
 					}
@@ -115,13 +115,13 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 503817681985020,
+					"sid": 252646475472378,
 					"parameters": {
 						"layout": "\"Level 3\""
 					}
 				}
 			],
-			"sid": 862686421968818
+			"sid": 385644075814408
 		},
 		{
 			"eventType": "block",
@@ -129,7 +129,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 993094222537543,
+					"sid": 947382841351997,
 					"parameters": {
 						"object": "Sprite4"
 					}
@@ -139,11 +139,11 @@
 				{
 					"id": "start-fade",
 					"objectClass": "Sprite4",
-					"sid": 133209580771999,
+					"sid": 604095396651384,
 					"behaviorType": "Fade"
 				}
 			],
-			"sid": 953795933739921
+			"sid": 469001085995928
 		},
 		{
 			"eventType": "block",
@@ -151,7 +151,7 @@
 				{
 					"id": "on-fade-out-finished",
 					"objectClass": "Sprite4",
-					"sid": 107963797589049,
+					"sid": 650213496547076,
 					"behaviorType": "Fade"
 				}
 			],
@@ -159,7 +159,7 @@
 				{
 					"id": "set-collisions-enabled",
 					"objectClass": "Sprite4",
-					"sid": 176186333210310,
+					"sid": 518106722072611,
 					"parameters": {
 						"collisions": "disabled"
 					}
@@ -167,7 +167,7 @@
 				{
 					"id": "set-enabled",
 					"objectClass": "Sprite4",
-					"sid": 537683818370279,
+					"sid": 792106025290811,
 					"behaviorType": "Solid",
 					"parameters": {
 						"state": "disabled"
@@ -176,7 +176,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 387649527431747,
+					"sid": 903470445975015,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -184,7 +184,7 @@
 				{
 					"id": "set-collisions-enabled",
 					"objectClass": "Sprite4",
-					"sid": 930164675442024,
+					"sid": 321596678221745,
 					"parameters": {
 						"collisions": "enabled"
 					}
@@ -192,7 +192,7 @@
 				{
 					"id": "set-enabled",
 					"objectClass": "Sprite4",
-					"sid": 929715708789028,
+					"sid": 714566245944710,
 					"behaviorType": "Solid",
 					"parameters": {
 						"state": "enabled"
@@ -201,113 +201,13 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "Sprite4",
-					"sid": 969605518813016,
+					"sid": 350520666181752,
 					"parameters": {
 						"opacity": "100"
 					}
 				}
 			],
-			"sid": 459297152118796
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 853642371063044,
-					"parameters": {
-						"interval-seconds": "6"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 327080761746042,
-					"parameters": {
-						"object-to-create": "Car",
-						"layer": "1",
-						"x": "random (-300,200)",
-						"y": "random (200,280)",
-						"create-hierarchy": false
-					}
-				},
-				{
-					"id": "set-speed",
-					"objectClass": "Car",
-					"sid": 375567386824680,
-					"behaviorType": "Bullet",
-					"parameters": {
-						"speed": "random(150,250)"
-					}
-				}
-			],
-			"sid": 243046338662321
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 117053869984537
-				}
-			],
-			"actions": [
-				{
-					"id": "set-position-to-another-object",
-					"objectClass": "Sprite2",
-					"sid": 314367139387704,
-					"parameters": {
-						"object": "Car",
-						"image-point-optional": "1"
-					}
-				}
-			],
-			"sid": 329295832995322
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-on-screen",
-					"objectClass": "Car",
-					"sid": 165814830990640
-				}
-			],
-			"actions": [],
-			"sid": 772772185444386,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "for-each",
-							"objectClass": "System",
-							"sid": 591322476041679,
-							"parameters": {
-								"object": "Car"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Car",
-							"sid": 156953136676018,
-							"parameters": {
-								"object": "Sprite2",
-								"layer": "1",
-								"image-point": "1",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 978963246734992
-				}
-			]
+			"sid": 612316500159391
 		},
 		{
 			"eventType": "block",
@@ -315,13 +215,13 @@
 				{
 					"id": "is-on-floor",
 					"objectClass": "Player",
-					"sid": 823098017733842,
+					"sid": 641472926526204,
 					"behaviorType": "Platform",
 					"isInverted": true
 				}
 			],
 			"actions": [],
-			"sid": 254797849405596,
+			"sid": 376004003191690,
 			"children": [
 				{
 					"eventType": "block",
@@ -329,7 +229,7 @@
 						{
 							"id": "is-by-wall",
 							"objectClass": "Player",
-							"sid": 855519592688515,
+							"sid": 722751255055295,
 							"behaviorType": "Platform",
 							"parameters": {
 								"side": "right"
@@ -340,7 +240,7 @@
 						{
 							"id": "set-max-fall-speed",
 							"objectClass": "Player",
-							"sid": 305354972484127,
+							"sid": 974644582898932,
 							"behaviorType": "Platform",
 							"parameters": {
 								"max-fall-speed": "50"
@@ -349,7 +249,7 @@
 						{
 							"id": "set-mirrored",
 							"objectClass": "Player",
-							"sid": 804932191735987,
+							"sid": 921665382750181,
 							"parameters": {
 								"state": "mirrored"
 							}
@@ -357,7 +257,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 904781601572315,
+							"sid": 957965396223834,
 							"parameters": {
 								"animation": "\"wall\"",
 								"from": "beginning"
@@ -366,7 +266,7 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 702917071839054,
+							"sid": 936563103967504,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
@@ -375,7 +275,7 @@
 							}
 						}
 					],
-					"sid": 584057809008044,
+					"sid": 651881308019920,
 					"children": [
 						{
 							"eventType": "block",
@@ -383,7 +283,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 273572819861604,
+									"sid": 694377881630486,
 									"parameters": {
 										"key": 38
 									}
@@ -393,7 +293,7 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 882694194256200,
+									"sid": 494968299464352,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-x": "-500"
@@ -402,14 +302,14 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 828634261745777,
+									"sid": 577129863483323,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-y": "-500"
 									}
 								}
 							],
-							"sid": 894924992974091
+							"sid": 520056675617214
 						}
 					]
 				},
@@ -419,7 +319,7 @@
 						{
 							"id": "is-by-wall",
 							"objectClass": "Player",
-							"sid": 866558587432958,
+							"sid": 284284634610187,
 							"behaviorType": "Platform",
 							"parameters": {
 								"side": "left"
@@ -430,7 +330,7 @@
 						{
 							"id": "set-max-fall-speed",
 							"objectClass": "Player",
-							"sid": 962545172936915,
+							"sid": 858296882935917,
 							"behaviorType": "Platform",
 							"parameters": {
 								"max-fall-speed": "50"
@@ -439,7 +339,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 108110328527271,
+							"sid": 154977489179327,
 							"parameters": {
 								"animation": "\"wall\"",
 								"from": "beginning"
@@ -448,7 +348,7 @@
 						{
 							"id": "set-mirrored",
 							"objectClass": "Player",
-							"sid": 725114979581262,
+							"sid": 161837242036889,
 							"parameters": {
 								"state": "not-mirrored"
 							}
@@ -456,7 +356,7 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 524120089208661,
+							"sid": 396956146549609,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
@@ -465,7 +365,7 @@
 							}
 						}
 					],
-					"sid": 482303284196316,
+					"sid": 130108712247127,
 					"children": [
 						{
 							"eventType": "block",
@@ -473,7 +373,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 835504354511566,
+									"sid": 631439140958642,
 									"parameters": {
 										"key": 38
 									}
@@ -483,7 +383,7 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 135744633973942,
+									"sid": 717855492381340,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-x": "500"
@@ -492,14 +392,14 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 650634151826086,
+									"sid": 971874723900332,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-y": "-500"
 									}
 								}
 							],
-							"sid": 242836068576645
+							"sid": 604257421093868
 						}
 					]
 				},
@@ -509,7 +409,7 @@
 						{
 							"id": "is-by-wall",
 							"objectClass": "Player",
-							"sid": 429009158730894,
+							"sid": 637651006741577,
 							"behaviorType": "Platform",
 							"parameters": {
 								"side": "left"
@@ -519,7 +419,7 @@
 						{
 							"id": "is-by-wall",
 							"objectClass": "Player",
-							"sid": 122109182387754,
+							"sid": 858957488171730,
 							"behaviorType": "Platform",
 							"parameters": {
 								"side": "right"
@@ -531,20 +431,20 @@
 						{
 							"id": "set-max-fall-speed",
 							"objectClass": "Player",
-							"sid": 781222615818157,
+							"sid": 387285970674460,
 							"behaviorType": "Platform",
 							"parameters": {
 								"max-fall-speed": "500"
 							}
 						}
 					],
-					"sid": 251819165199044
+					"sid": 811614152283395
 				},
 				{
 					"eventType": "block",
 					"conditions": [],
 					"actions": [],
-					"sid": 485652773106352
+					"sid": 399542276255707
 				}
 			]
 		},
@@ -554,14 +454,14 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 534273083732327
+					"sid": 311058167310408
 				}
 			],
 			"actions": [
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 424562169630178,
+					"sid": 196431201738238,
 					"parameters": {
 						"audio-file": "Infraction-Cyber-Attack-pr",
 						"loop": "looping",
@@ -570,7 +470,7 @@
 					}
 				}
 			],
-			"sid": 106712920686527
+			"sid": 431526926821518
 		},
 		{
 			"eventType": "block",
@@ -578,17 +478,17 @@
 				{
 					"id": "on-end-of-layout",
 					"objectClass": "System",
-					"sid": 389311898292442
+					"sid": 921342655691746
 				}
 			],
 			"actions": [
 				{
 					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 758180453805574
+					"sid": 550175773555007
 				}
 			],
-			"sid": 211162106725960
+			"sid": 858785644735120
 		},
 		{
 			"eventType": "block",
@@ -596,12 +496,12 @@
 				{
 					"id": "on-moved",
 					"objectClass": "Player",
-					"sid": 376380497668992,
+					"sid": 174114024931499,
 					"behaviorType": "Platform"
 				}
 			],
 			"actions": [],
-			"sid": 798801994812886
+			"sid": 230966770940511
 		},
 		{
 			"eventType": "block",
@@ -609,7 +509,7 @@
 				{
 					"id": "has-los-to-object",
 					"objectClass": "enemy",
-					"sid": 108374078395786,
+					"sid": 961426716440433,
 					"behaviorType": "LineOfSight",
 					"parameters": {
 						"object": "Player",
@@ -618,7 +518,7 @@
 				}
 			],
 			"actions": [],
-			"sid": 841629022178331,
+			"sid": 426265102859996,
 			"disabled": true
 		},
 		{
@@ -627,7 +527,7 @@
 				{
 					"id": "has-los-to-object",
 					"objectClass": "enemy",
-					"sid": 620461875759560,
+					"sid": 736257916057622,
 					"behaviorType": "LineOfSight",
 					"parameters": {
 						"object": "Player",
@@ -639,7 +539,7 @@
 				{
 					"id": "move-to-object",
 					"objectClass": "enemy",
-					"sid": 645150519371344,
+					"sid": 108136562150571,
 					"behaviorType": "MoveTo",
 					"parameters": {
 						"object": "Player",
@@ -650,7 +550,7 @@
 				{
 					"id": "move-at-angle",
 					"objectClass": "enemy",
-					"sid": 495606258980894,
+					"sid": 409156724791150,
 					"parameters": {
 						"angle": "angle(enemy.X,enemy.Y,Player.X,Player.Y)",
 						"distance": "5"
@@ -659,7 +559,7 @@
 				{
 					"id": "add-object-to-target",
 					"objectClass": "enemy",
-					"sid": 973865352814164,
+					"sid": 885339935676574,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
@@ -668,7 +568,7 @@
 				{
 					"id": "acquire-target",
 					"objectClass": "enemy",
-					"sid": 110092551925366,
+					"sid": 425130306332322,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
@@ -677,7 +577,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 280483935979642,
+					"sid": 225458887035340,
 					"parameters": {
 						"audio-file": "43806__daveincamas__siren",
 						"loop": "not-looping",
@@ -688,10 +588,10 @@
 				{
 					"id": "stop-loop",
 					"objectClass": "System",
-					"sid": 813755007564152
+					"sid": 721538921769363
 				}
 			],
-			"sid": 711838766748532
+			"sid": 504076902145883
 		},
 		{
 			"eventType": "block",
@@ -699,13 +599,13 @@
 				{
 					"id": "has-target",
 					"objectClass": "enemy",
-					"sid": 305651195911905,
+					"sid": 658593392547950,
 					"behaviorType": "Turret"
 				},
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 233295534331168,
+					"sid": 561479262078732,
 					"parameters": {
 						"interval-seconds": "1"
 					}
@@ -715,7 +615,7 @@
 				{
 					"id": "set-rate-of-fire",
 					"objectClass": "enemy",
-					"sid": 802133613228211,
+					"sid": 251954795282778,
 					"behaviorType": "Turret",
 					"parameters": {
 						"rate-of-fire": "1"
@@ -724,7 +624,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "enemy",
-					"sid": 802637255270048,
+					"sid": 242066817785150,
 					"parameters": {
 						"object": "Sprite3",
 						"layer": "1",
@@ -735,7 +635,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 609453816510065,
+					"sid": 585967652307526,
 					"parameters": {
 						"audio-file": "skyclad_sound_bullet_wizz_by_sharp_rapid_whine_bass_165 (1)",
 						"loop": "not-looping",
@@ -744,7 +644,7 @@
 					}
 				}
 			],
-			"sid": 292265173813740
+			"sid": 750311065379921
 		},
 		{
 			"eventType": "block",
@@ -752,13 +652,13 @@
 				{
 					"id": "is-on-floor",
 					"objectClass": "Player",
-					"sid": 683912800647306,
+					"sid": 970035203938466,
 					"behaviorType": "Platform"
 				},
 				{
 					"id": "is-moving",
 					"objectClass": "Player",
-					"sid": 112307386113927,
+					"sid": 395668319720482,
 					"behaviorType": "Platform"
 				}
 			],
@@ -766,14 +666,14 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Player",
-					"sid": 667037174982304,
+					"sid": 404959874716257,
 					"parameters": {
 						"animation": "\"Walk\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 844441239962459
+			"sid": 400982675040900
 		},
 		{
 			"eventType": "block",
@@ -781,13 +681,13 @@
 				{
 					"id": "is-on-floor",
 					"objectClass": "Player",
-					"sid": 587685670001614,
+					"sid": 212841323040515,
 					"behaviorType": "Platform"
 				},
 				{
 					"id": "is-moving",
 					"objectClass": "Player",
-					"sid": 550747588374592,
+					"sid": 444089720238477,
 					"behaviorType": "Platform",
 					"isInverted": true
 				}
@@ -796,14 +696,14 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Player",
-					"sid": 448950009398973,
+					"sid": 763389561879016,
 					"parameters": {
 						"animation": "\"Idle\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 957510352151661
+			"sid": 532321102070861
 		},
 		{
 			"eventType": "block",
@@ -811,7 +711,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 987680422513419,
+					"sid": 417988242137621,
 					"parameters": {
 						"object": "Water"
 					}
@@ -821,10 +721,10 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 594233789625732
+					"sid": 906809645064446
 				}
 			],
-			"sid": 753551947361981
+			"sid": 169511198203287
 		},
 		{
 			"eventType": "block",
@@ -832,7 +732,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 703380109864776,
+					"sid": 577043738288428,
 					"parameters": {
 						"object": "Goal"
 					}
@@ -842,13 +742,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 511599733991935,
+					"sid": 969097977571340,
 					"parameters": {
 						"layout": "Title Screen"
 					}
 				}
 			],
-			"sid": 647188232086006
+			"sid": 268805227863015
 		},
 		{
 			"eventType": "block",
@@ -856,7 +756,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 275149702212160,
+					"sid": 981442561793911,
 					"parameters": {
 						"object": "Teleport3"
 					}
@@ -866,13 +766,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 348885719637341,
+					"sid": 807782602412021,
 					"parameters": {
 						"layout": "Credits"
 					}
 				}
 			],
-			"sid": 900956723049841
+			"sid": 735707680759258
 		},
 		{
 			"eventType": "block",
@@ -880,7 +780,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "enemy",
-					"sid": 693133950978818,
+					"sid": 798757551587562,
 					"parameters": {
 						"object": "Player"
 					}
@@ -890,11 +790,11 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 682904260703580
+					"sid": 639790472799008
 				}
 			],
-			"sid": 781758291546587
+			"sid": 373311350019160
 		}
 	],
-	"sid": 442347107940901
+	"sid": 277272464173823
 }
