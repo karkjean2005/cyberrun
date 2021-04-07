@@ -1,7 +1,7 @@
 {
-	"name": "Sprite13",
+	"name": "CyberChip",
 	"plugin-id": "Sprite",
-	"sid": 114204825720239,
+	"sid": 186229005804758,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,24 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5816363,
+						"imageSpriteId": 1681358,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								0.8959999999999999,
+								0.9079999999999999,
+								0.1600000000000001,
+								0.9119999999999999
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 206416529396769,
+				"sid": 479146691283751,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -217,7 +217,7 @@
 			"Water",
 			"Raft",
 			"Sprite12",
-			"Sprite13",
+			"Museum",
 			"Instructions1",
 			"InStructions2",
 			"Goal",
@@ -226,7 +226,13 @@
 			"Sprite15",
 			"Tutorialmenubutton",
 			"Sprite16",
-			"TiledBackground20"
+			"TiledBackground20",
+			"Sprite17",
+			"Sprite18",
+			"Text9",
+			"CyberChip",
+			"Doors",
+			"Exit"
 		],
 		"subfolders": []
 	},
@@ -244,7 +250,9 @@
 			"Title Screen",
 			"Credits",
 			"Tutorial",
-			"Layout 1"
+			"Layout 1",
+			"Introduction",
+			"Introduction2"
 		],
 		"subfolders": []
 	},
