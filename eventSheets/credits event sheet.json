@@ -38,11 +38,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 928002346110568,
+					"sid": 443319723548867,
 					"parameters": {
 						"audio-file": "I_Do_Know_by_Memoraphile_CC0",
 						"loop": "looping",
-						"volume": "-30",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				}

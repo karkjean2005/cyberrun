@@ -264,14 +264,22 @@
 							}
 						},
 						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 114549681451894,
+							"parameters": {
+								"tag": "\"break\""
+							}
+						},
+						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 936563103967504,
+							"sid": 742040817994140,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
 								"volume": "-10",
-								"tag-optional": "\"\""
+								"tag-optional": "\"break\""
 							}
 						}
 					],
@@ -354,14 +362,22 @@
 							}
 						},
 						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 455064930389187,
+							"parameters": {
+								"tag": "\"break\""
+							}
+						},
+						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 396956146549609,
+							"sid": 835205197483318,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
 								"volume": "-10",
-								"tag-optional": "\"\""
+								"tag-optional": "\"break\""
 							}
 						}
 					],

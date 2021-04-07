@@ -319,11 +319,6 @@
 					"name": "Slide.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 648072197525213
-				},
-				{
-					"name": "run.mp3",
-					"type": "audio/mpeg",
-					"sid": 441337408709931
 				}
 			],
 			"subfolders": []

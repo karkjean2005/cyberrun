@@ -62,11 +62,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 945441501205609,
+					"sid": 218509451578773,
 					"parameters": {
 						"audio-file": "Intro",
 						"loop": "looping",
-						"volume": "-35",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				}
