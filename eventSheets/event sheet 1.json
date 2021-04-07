@@ -374,11 +374,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 624697265750770,
+							"sid": 494856935594120,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-20",
 								"tag-optional": "\"break\""
 							}
 						}
@@ -472,11 +472,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 666268387210788,
+							"sid": 678329191649856,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-20",
 								"tag-optional": "\"break\""
 							}
 						}
@@ -577,11 +577,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 424562169630178,
+					"sid": 178353137506206,
 					"parameters": {
 						"audio-file": "Infraction-Cyber-Attack-pr",
 						"loop": "looping",
-						"volume": "-10",
+						"volume": "-30",
 						"tag-optional": "\"\""
 					}
 				}
@@ -693,11 +693,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 280483935979642,
+					"sid": 892682282136084,
 					"parameters": {
 						"audio-file": "43806__daveincamas__siren",
 						"loop": "not-looping",
-						"volume": "-45",
+						"volume": "-50",
 						"tag-optional": "\"\""
 					}
 				},
@@ -751,11 +751,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 609453816510065,
+					"sid": 527612139490496,
 					"parameters": {
 						"audio-file": "skyclad_sound_bullet_wizz_by_sharp_rapid_whine_bass_165 (1)",
 						"loop": "not-looping",
-						"volume": "-10",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				}
