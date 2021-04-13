@@ -931,6 +931,27 @@
 				}
 			],
 			"sid": 841955155882830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Car",
+					"sid": 165337064089609,
+					"parameters": {
+						"object": "walldestroyer"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Car",
+					"sid": 608934583347196
+				}
+			],
+			"sid": 270251952779788
 		}
 	],
 	"sid": 442347107940901

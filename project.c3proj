@@ -232,7 +232,8 @@
 			"Text9",
 			"CyberChip",
 			"Doors",
-			"Exit"
+			"Exit",
+			"walldestroyer"
 		],
 		"subfolders": []
 	},
