@@ -577,11 +577,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 424562169630178,
+					"sid": 502066244738895,
 					"parameters": {
 						"audio-file": "Infraction-Cyber-Attack-pr",
 						"loop": "looping",
-						"volume": "-10",
+						"volume": "-15",
 						"tag-optional": "\"\""
 					}
 				}
@@ -693,11 +693,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 280483935979642,
+					"sid": 537173363510570,
 					"parameters": {
-						"audio-file": "43806__daveincamas__siren",
+						"audio-file": "Siren",
 						"loop": "not-looping",
-						"volume": "-45",
+						"volume": "-25",
 						"tag-optional": "\"\""
 					}
 				},
