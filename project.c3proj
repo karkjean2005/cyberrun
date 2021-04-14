@@ -233,7 +233,8 @@
 			"CyberChip",
 			"Doors",
 			"Exit",
-			"walldestroyer"
+			"walldestroyer",
+			"Vent"
 		],
 		"subfolders": []
 	},

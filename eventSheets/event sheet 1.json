@@ -916,27 +916,6 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "CyberChip",
-					"sid": 831267287439665,
-					"parameters": {
-						"object": "Player"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "CyberChip",
-					"sid": 197140215678203
-				}
-			],
-			"sid": 841955155882830
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
 					"objectClass": "Car",
 					"sid": 165337064089609,
 					"parameters": {
