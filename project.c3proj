@@ -234,7 +234,8 @@
 			"Doors",
 			"Exit",
 			"walldestroyer",
-			"Vent"
+			"Vent",
+			"carspawner"
 		],
 		"subfolders": []
 	},

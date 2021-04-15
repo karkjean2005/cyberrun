@@ -144,53 +144,6 @@
 					}
 				},
 				{
-					"type": "Car",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
-						"Bullet": {
-							"properties": {
-								"speed": 200,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": -292,
-						"y": 370,
-						"width": 148.28874839647347,
-						"height": 80.097453304182,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
@@ -1353,7 +1306,9 @@
 						"live-preview": false
 					},
 					"uid": 161,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"wallnoise": 0
+					},
 					"behaviors": {
 						"Platform": {
 							"properties": {
@@ -1409,6 +1364,35 @@
 						"y": 210.5,
 						"width": 57,
 						"height": 351,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "carspawner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 303,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -104,
+						"y": 352,
+						"width": 132,
+						"height": 141,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

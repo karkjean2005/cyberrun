@@ -22,10 +22,36 @@
 			"sid": 600311987806144
 		},
 		{
+			"eventType": "variable",
+			"name": "flyingcars",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 869160438665414
+		},
+		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 494227021952958
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 183791210481834
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 183976778216706,
+					"parameters": {
+						"variable": "flyingcars",
+						"value": "carspawner.Count"
+					}
+				}
+			],
+			"sid": 602522631859143
 		},
 		{
 			"eventType": "block",
@@ -215,9 +241,19 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 430515714091226,
+					"sid": 928356766678060,
 					"parameters": {
-						"interval-seconds": "3"
+						"interval-seconds": "2"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 825444743115614,
+					"parameters": {
+						"variable": "flyingcars",
+						"comparison": 4,
+						"value": "0"
 					}
 				}
 			],
@@ -225,11 +261,11 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 327080761746042,
+					"sid": 857358422088261,
 					"parameters": {
 						"object-to-create": "Car",
 						"layer": "1",
-						"x": "random (-300,200)",
+						"x": "-100",
 						"y": "random (200,280)",
 						"create-hierarchy": false
 					}
@@ -329,44 +365,91 @@
 						{
 							"id": "is-by-wall",
 							"objectClass": "Player",
-							"sid": 855519592688515,
+							"sid": 390664826656291,
 							"behaviorType": "Platform",
 							"parameters": {
-								"side": "right"
+								"side": "left"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 391533830401428,
+							"parameters": {
+								"instance-variable": "wallnoise",
+								"comparison": 0,
+								"value": "0"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-max-fall-speed",
+							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 305354972484127,
+							"sid": 767783414484961,
+							"parameters": {
+								"instance-variable": "wallnoise",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 584057809008044
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-by-wall",
+							"objectClass": "Player",
+							"sid": 877794589597577,
 							"behaviorType": "Platform",
 							"parameters": {
-								"max-fall-speed": "50"
+								"side": "right"
 							}
 						},
 						{
-							"id": "set-mirrored",
+							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 804932191735987,
+							"sid": 426401450703688,
 							"parameters": {
-								"state": "mirrored"
+								"instance-variable": "wallnoise",
+								"comparison": 0,
+								"value": "0"
 							}
-						},
+						}
+					],
+					"actions": [
 						{
-							"id": "set-animation",
+							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 904781601572315,
+							"sid": 421888377124591,
 							"parameters": {
-								"animation": "\"wall\"",
-								"from": "beginning"
+								"instance-variable": "wallnoise",
+								"value": "1"
 							}
-						},
+						}
+					],
+					"sid": 646414381977970
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 626649094888586,
+							"parameters": {
+								"instance-variable": "wallnoise",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
 						{
 							"id": "stop",
 							"objectClass": "Audio",
-							"sid": 397332541420835,
+							"sid": 568868612954701,
 							"parameters": {
 								"tag": "\"break\""
 							}
@@ -374,52 +457,25 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 624697265750770,
+							"sid": 222306670226020,
 							"parameters": {
 								"audio-file": "Jump",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "0",
 								"tag-optional": "\"break\""
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 848749616310058,
+							"parameters": {
+								"instance-variable": "wallnoise",
+								"value": "2"
 							}
 						}
 					],
-					"sid": 584057809008044,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-key-pressed",
-									"objectClass": "Keyboard",
-									"sid": 273572819861604,
-									"parameters": {
-										"key": 38
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-vector-x",
-									"objectClass": "Player",
-									"sid": 882694194256200,
-									"behaviorType": "Platform",
-									"parameters": {
-										"vector-x": "-500"
-									}
-								},
-								{
-									"id": "set-vector-y",
-									"objectClass": "Player",
-									"sid": 828634261745777,
-									"behaviorType": "Platform",
-									"parameters": {
-										"vector-y": "-500"
-									}
-								}
-							],
-							"sid": 894924992974091
-						}
-					]
+					"sid": 420269898279962
 				},
 				{
 					"eventType": "block",
@@ -431,6 +487,43 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"side": "left"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-by-wall",
+							"objectClass": "Player",
+							"sid": 229428753544692,
+							"behaviorType": "Platform",
+							"parameters": {
+								"side": "right"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 519335893734671,
+							"parameters": {
+								"instance-variable": "wallnoise",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 482303284196316
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-by-wall",
+							"objectClass": "Player",
+							"sid": 197242557692981,
+							"behaviorType": "Platform",
+							"parameters": {
+								"side": "right"
 							}
 						}
 					],
@@ -438,50 +531,31 @@
 						{
 							"id": "set-max-fall-speed",
 							"objectClass": "Player",
-							"sid": 962545172936915,
+							"sid": 360681681301326,
 							"behaviorType": "Platform",
 							"parameters": {
 								"max-fall-speed": "50"
 							}
 						},
 						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 931342955361572,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 108110328527271,
+							"sid": 158110060996056,
 							"parameters": {
 								"animation": "\"wall\"",
 								"from": "beginning"
 							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Player",
-							"sid": 725114979581262,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						},
-						{
-							"id": "stop",
-							"objectClass": "Audio",
-							"sid": 698957674759713,
-							"parameters": {
-								"tag": "\"break\""
-							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 666268387210788,
-							"parameters": {
-								"audio-file": "Jump",
-								"loop": "not-looping",
-								"volume": "-10",
-								"tag-optional": "\"break\""
-							}
 						}
 					],
-					"sid": 482303284196316,
+					"sid": 287903362145456,
 					"children": [
 						{
 							"eventType": "block",
@@ -489,7 +563,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 835504354511566,
+									"sid": 181820655865380,
 									"parameters": {
 										"key": 38
 									}
@@ -499,23 +573,136 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 135744633973942,
+									"sid": 172616061489750,
 									"behaviorType": "Platform",
 									"parameters": {
-										"vector-x": "500"
+										"vector-x": "-500"
 									}
 								},
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 650634151826086,
+									"sid": 824060645745264,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-y": "-500"
 									}
 								}
 							],
-							"sid": 242836068576645
+							"sid": 340636401534601
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 975872302975303,
+							"parameters": {
+								"key": 38
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-vector-x",
+							"objectClass": "Player",
+							"sid": 761133649480770,
+							"behaviorType": "Platform",
+							"parameters": {
+								"vector-x": "-500"
+							}
+						},
+						{
+							"id": "set-vector-y",
+							"objectClass": "Player",
+							"sid": 117734831851892,
+							"behaviorType": "Platform",
+							"parameters": {
+								"vector-y": "-500"
+							}
+						}
+					],
+					"sid": 135442764962888
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-by-wall",
+							"objectClass": "Player",
+							"sid": 151111410197589,
+							"behaviorType": "Platform",
+							"parameters": {
+								"side": "left"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-fall-speed",
+							"objectClass": "Player",
+							"sid": 294552950387268,
+							"behaviorType": "Platform",
+							"parameters": {
+								"max-fall-speed": "50"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 894620148605665,
+							"parameters": {
+								"animation": "\"wall\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 986268616164990,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 143717657156578,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 106433841876480,
+									"parameters": {
+										"key": 38
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-vector-x",
+									"objectClass": "Player",
+									"sid": 373403674985511,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-x": "-500"
+									}
+								},
+								{
+									"id": "set-vector-y",
+									"objectClass": "Player",
+									"sid": 848345671929262,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-y": "-500"
+									}
+								}
+							],
+							"sid": 435329630876775
 						}
 					]
 				},
@@ -555,12 +742,6 @@
 						}
 					],
 					"sid": 251819165199044
-				},
-				{
-					"eventType": "block",
-					"conditions": [],
-					"actions": [],
-					"sid": 485652773106352
 				}
 			]
 		},

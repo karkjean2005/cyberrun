@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 463858834892512,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "wallnoise",
+			"type": "number",
+			"desc": "",
+			"sid": 839011704128843
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",

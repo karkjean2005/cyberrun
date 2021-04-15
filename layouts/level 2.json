@@ -117,7 +117,9 @@
 						"live-preview": false
 					},
 					"uid": 82,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"wallnoise": 0
+					},
 					"behaviors": {
 						"Platform": {
 							"properties": {
