@@ -503,9 +503,9 @@
 					],
 					"actions": [
 						{
-							"id": "add-to-instvar",
+							"id": "set-instvar-value",
 							"objectClass": "Player",
-							"sid": 519335893734671,
+							"sid": 704463377318676,
 							"parameters": {
 								"instance-variable": "wallnoise",
 								"value": "0"
