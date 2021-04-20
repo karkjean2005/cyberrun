@@ -475,8 +475,8 @@
 						}
 					},
 					"world": {
-						"x": 85,
-						"y": 864,
+						"x": 412,
+						"y": 888,
 						"width": 113.43846475318252,
 						"height": 119.05423033502323,
 						"originX": 0.5,
@@ -3008,6 +3008,35 @@
 						"angle": 0.03258939036520192,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "introductionTelport1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 304,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 60,
+						"y": 266,
+						"width": 77,
+						"height": 127,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 854483958718404,
@@ -3041,5 +3070,5 @@
 	"width": 1280,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": null
+	"eventSheet": "Event sheet 1"
 }

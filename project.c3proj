@@ -244,7 +244,9 @@
 			"walldestroyer",
 			"Vent",
 			"carspawner",
-			"Particles"
+			"Particles",
+			"introductionTelport1",
+			"introducionTeleport2"
 		],
 		"subfolders": []
 	},
