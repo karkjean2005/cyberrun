@@ -829,10 +829,10 @@
 					"world": {
 						"x": -867,
 						"y": 487,
-						"width": 96,
-						"height": 98,
+						"width": 96.768,
+						"height": 68.60000000000001,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.6171428571428571,
 						"color": [
 							1,
 							1,
@@ -897,10 +897,10 @@
 					"world": {
 						"x": -853,
 						"y": 662,
-						"width": 96,
-						"height": 98,
+						"width": 96.768,
+						"height": 68.60000000000001,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.6171428571428571,
 						"color": [
 							1,
 							1,
@@ -3041,5 +3041,5 @@
 	"width": 1280,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 2"
+	"eventSheet": null
 }

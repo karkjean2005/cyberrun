@@ -434,7 +434,7 @@
 					},
 					"world": {
 						"x": 57,
-						"y": 682,
+						"y": 712,
 						"width": 74.39111328545269,
 						"height": 78.07384166592065,
 						"originX": 0.5,
@@ -768,8 +768,8 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 140,
-								"acceleration": 350,
+								"max-speed": 185,
+								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
@@ -787,10 +787,10 @@
 					"world": {
 						"x": -867,
 						"y": 487,
-						"width": 96,
-						"height": 98,
+						"width": 96.768,
+						"height": 68.60000000000001,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.6171428571428571,
 						"color": [
 							1,
 							1,
@@ -836,8 +836,8 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 140,
-								"acceleration": 350,
+								"max-speed": 185,
+								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
@@ -855,10 +855,10 @@
 					"world": {
 						"x": -853,
 						"y": 662,
-						"width": 96,
-						"height": 98,
+						"width": 96.768,
+						"height": 68.60000000000001,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.6171428571428571,
 						"color": [
 							1,
 							1,
@@ -2558,8 +2558,8 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 140,
-								"acceleration": 350,
+								"max-speed": 185,
+								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
@@ -2577,10 +2577,10 @@
 					"world": {
 						"x": 60,
 						"y": 477,
-						"width": 96,
-						"height": 98,
+						"width": 96.768,
+						"height": 68.60000000000001,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.6171428571428571,
 						"color": [
 							1,
 							1,

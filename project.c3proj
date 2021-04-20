@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -235,7 +243,8 @@
 			"Exit",
 			"walldestroyer",
 			"Vent",
-			"carspawner"
+			"carspawner",
+			"Particles"
 		],
 		"subfolders": []
 	},
@@ -333,6 +342,11 @@
 					"name": "Siren.mp3",
 					"type": "audio/mpeg",
 					"sid": 446656538070908
+				},
+				{
+					"name": "Explosion 42.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 713202393273249
 				}
 			],
 			"subfolders": []

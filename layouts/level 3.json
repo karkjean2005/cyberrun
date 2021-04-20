@@ -1282,10 +1282,10 @@
 					"world": {
 						"x": 120,
 						"y": -246,
-						"width": 96,
-						"height": 98,
+						"width": 96.768,
+						"height": 68.60000000000001,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.6171428571428571,
 						"color": [
 							1,
 							1,
@@ -1389,11 +1389,56 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -104,
-						"y": 352,
+						"x": -105,
+						"y": 337,
 						"width": 132,
 						"height": 141,
 						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Particles",
+					"properties": {
+						"rate": 50,
+						"spray-cone": 360,
+						"type": "one-shot",
+						"object": -1,
+						"live-preview": false,
+						"speed": 200,
+						"size": 32,
+						"opacity": 100,
+						"grow-rate": 0,
+						"x-randomiser": 0,
+						"y-randomiser": 0,
+						"initial-speed-randomiser": 0,
+						"size-randomiser": 0,
+						"grow-rate-randomiser": 0,
+						"acceleration": -150,
+						"gravity": 0,
+						"angle-randomiser": 0,
+						"life-speed-randomiser": 800,
+						"opacity-randomiser": 0,
+						"destroy-mode": "fade-to-invisible",
+						"timeout": 1
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -181,
+						"y": 120,
+						"width": 100,
+						"height": 100,
+						"originX": 0,
 						"originY": 0.5,
 						"color": [
 							1,

@@ -847,10 +847,11 @@
 				{
 					"id": "move-at-angle",
 					"objectClass": "enemy",
-					"sid": 495606258980894,
+					"sid": 969258628338481,
+					"disabled": true,
 					"parameters": {
 						"angle": "angle(enemy.X,enemy.Y,Player.X,Player.Y)",
-						"distance": "5"
+						"distance": "0.5"
 					}
 				},
 				{
@@ -1106,9 +1107,31 @@
 			],
 			"actions": [
 				{
+					"id": "spawn-another-object",
+					"objectClass": "Car",
+					"sid": 510250031347784,
+					"parameters": {
+						"object": "Particles",
+						"layer": "1",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
 					"id": "destroy",
 					"objectClass": "Car",
 					"sid": 608934583347196
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 772058570201963,
+					"parameters": {
+						"audio-file": "Explosion 42",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 270251952779788
