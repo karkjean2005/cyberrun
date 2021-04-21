@@ -645,6 +645,40 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 975872302975303,
+							"parameters": {
+								"key": 38
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-vector-x",
+							"objectClass": "Player",
+							"sid": 761133649480770,
+							"behaviorType": "Platform",
+							"parameters": {
+								"vector-x": "-500"
+							}
+						},
+						{
+							"id": "set-vector-y",
+							"objectClass": "Player",
+							"sid": 117734831851892,
+							"behaviorType": "Platform",
+							"parameters": {
+								"vector-y": "-500"
+							}
+						}
+					],
+					"sid": 135442764962888
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "is-by-wall",
 							"objectClass": "Player",
 							"sid": 151111410197589,
@@ -768,28 +802,77 @@
 					"sid": 534273083732327
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 106712920686527,
+			"children": [
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 502066244738895,
-					"parameters": {
-						"audio-file": "Infraction-Cyber-Attack-pr",
-						"loop": "looping",
-						"volume": "-15",
-						"tag-optional": "\"\""
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-tag-playing",
+							"objectClass": "Audio",
+							"sid": 261011743515614,
+							"parameters": {
+								"tag": "\"music\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 881369863392293,
+							"parameters": {
+								"audio-file": "Infraction-Cyber-Attack-pr",
+								"loop": "looping",
+								"volume": "-15",
+								"tag-optional": "\"music\""
+							}
+						}
+					],
+					"sid": 544968953815894
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 932552907756581
+						}
+					],
+					"actions": [
+						{
+							"id": "set-looping",
+							"objectClass": "Audio",
+							"sid": 391405262675979,
+							"parameters": {
+								"tag": "\"music\"",
+								"state": "looping"
+							}
+						},
+						{
+							"id": "set-looping",
+							"objectClass": "Audio",
+							"sid": 258558460318002,
+							"parameters": {
+								"tag": "\"music\"",
+								"state": "not-looping"
+							}
+						}
+					],
+					"sid": 939322161333186
 				}
-			],
-			"sid": 106712920686527
+			]
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-end-of-layout",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 389311898292442
+					"sid": 227456672595067
 				}
 			],
 			"actions": [
@@ -799,7 +882,8 @@
 					"sid": 758180453805574
 				}
 			],
-			"sid": 211162106725960
+			"sid": 211162106725960,
+			"disabled": true
 		},
 		{
 			"eventType": "block",

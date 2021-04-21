@@ -84,12 +84,9 @@
 			],
 			"actions": [
 				{
-					"id": "stop",
+					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 827033611550325,
-					"parameters": {
-						"tag": "\"\""
-					}
+					"sid": 216310901140065
 				}
 			],
 			"sid": 262645670527298
