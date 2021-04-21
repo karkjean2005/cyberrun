@@ -956,6 +956,7 @@
 					"id": "add-object-to-target",
 					"objectClass": "enemy",
 					"sid": 973865352814164,
+					"disabled": true,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
@@ -965,6 +966,7 @@
 					"id": "acquire-target",
 					"objectClass": "enemy",
 					"sid": 110092551925366,
+					"disabled": true,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
@@ -1040,7 +1042,8 @@
 					}
 				}
 			],
-			"sid": 292265173813740
+			"sid": 292265173813740,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -1223,11 +1226,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 772058570201963,
+					"sid": 729501668394759,
 					"parameters": {
 						"audio-file": "Explosion 42",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-12",
 						"tag-optional": "\"\""
 					}
 				}
