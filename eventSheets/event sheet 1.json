@@ -645,40 +645,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 975872302975303,
-							"parameters": {
-								"key": 38
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-vector-x",
-							"objectClass": "Player",
-							"sid": 761133649480770,
-							"behaviorType": "Platform",
-							"parameters": {
-								"vector-x": "-500"
-							}
-						},
-						{
-							"id": "set-vector-y",
-							"objectClass": "Player",
-							"sid": 117734831851892,
-							"behaviorType": "Platform",
-							"parameters": {
-								"vector-y": "-500"
-							}
-						}
-					],
-					"sid": 135442764962888
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "is-by-wall",
 							"objectClass": "Player",
 							"sid": 151111410197589,
