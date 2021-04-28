@@ -1,7 +1,7 @@
 {
-	"name": "Sprite13",
+	"name": "Teleport5",
 	"plugin-id": "Sprite",
-	"sid": 783656057389742,
+	"sid": 975433008532168,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5963584,
+						"imageSpriteId": 9431975,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 264006309438247,
+				"sid": 347449896057107,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
