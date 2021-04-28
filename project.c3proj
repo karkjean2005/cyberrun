@@ -246,7 +246,22 @@
 			"carspawner",
 			"Particles",
 			"introductionTelport1",
-			"introducionTeleport2"
+			"introducionTeleport2",
+			"Sprite13",
+			"Sprite19",
+			"Tilemap2",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22",
+			"Sprite23",
+			"Tilemap3",
+			"TiledBackground21",
+			"Sprite24",
+			"Sprite25",
+			"Sprite26",
+			"Sprite27",
+			"Sprite28",
+			"Sprite29"
 		],
 		"subfolders": []
 	},
