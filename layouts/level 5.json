@@ -1394,7 +1394,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 215,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -1678,7 +1678,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 215,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -1962,7 +1962,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 215,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -2030,7 +2030,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 215,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -2098,7 +2098,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 215,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -2834,7 +2834,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 215,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,

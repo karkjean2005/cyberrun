@@ -768,7 +768,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 261.8,
+								"max-speed": 220,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -836,7 +836,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 261.8,
+								"max-speed": 220,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -2558,7 +2558,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 270,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,

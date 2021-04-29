@@ -991,7 +991,7 @@
 						},
 						"MoveTo": {
 							"properties": {
-								"max-speed": 285,
+								"max-speed": 270,
 								"acceleration": 375,
 								"deceleration": 600,
 								"rotate-speed": 0,

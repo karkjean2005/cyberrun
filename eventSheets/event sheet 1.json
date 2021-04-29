@@ -676,20 +676,20 @@
 							}
 						},
 						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 581248427365961,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Player",
 							"sid": 894620148605665,
 							"parameters": {
 								"animation": "\"wall\"",
 								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Player",
-							"sid": 986268616164990,
-							"parameters": {
-								"state": "not-mirrored"
 							}
 						}
 					],
@@ -711,10 +711,10 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 373403674985511,
+									"sid": 761911789364440,
 									"behaviorType": "Platform",
 									"parameters": {
-										"vector-x": "-500"
+										"vector-x": "500"
 									}
 								},
 								{
@@ -847,25 +847,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 227456672595067
-				}
-			],
-			"actions": [
-				{
-					"id": "stop-all",
-					"objectClass": "Audio",
-					"sid": 758180453805574
-				}
-			],
-			"sid": 211162106725960,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-moved",
 					"objectClass": "Player",
 					"sid": 376380497668992,
@@ -874,24 +855,6 @@
 			],
 			"actions": [],
 			"sid": 798801994812886
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "has-los-to-object",
-					"objectClass": "enemy",
-					"sid": 108374078395786,
-					"behaviorType": "LineOfSight",
-					"parameters": {
-						"object": "Player",
-						"image-point": "0"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 841629022178331,
-			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -920,36 +883,6 @@
 					}
 				},
 				{
-					"id": "move-at-angle",
-					"objectClass": "enemy",
-					"sid": 969258628338481,
-					"disabled": true,
-					"parameters": {
-						"angle": "angle(enemy.X,enemy.Y,Player.X,Player.Y)",
-						"distance": "0.5"
-					}
-				},
-				{
-					"id": "add-object-to-target",
-					"objectClass": "enemy",
-					"sid": 973865352814164,
-					"disabled": true,
-					"behaviorType": "Turret",
-					"parameters": {
-						"target": "Player"
-					}
-				},
-				{
-					"id": "acquire-target",
-					"objectClass": "enemy",
-					"sid": 110092551925366,
-					"disabled": true,
-					"behaviorType": "Turret",
-					"parameters": {
-						"target": "Player"
-					}
-				},
-				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 537173363510570,
@@ -972,55 +905,39 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "has-target",
+					"id": "has-los-to-object",
 					"objectClass": "enemy",
-					"sid": 305651195911905,
-					"behaviorType": "Turret"
+					"sid": 590957487922267,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0"
+					}
 				},
 				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 233295534331168,
+					"id": "is-tag-playing",
+					"objectClass": "Audio",
+					"sid": 445434974891814,
 					"parameters": {
-						"interval-seconds": "1"
-					}
+						"tag": "\"siren\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
 				{
-					"id": "set-rate-of-fire",
-					"objectClass": "enemy",
-					"sid": 802133613228211,
-					"behaviorType": "Turret",
-					"parameters": {
-						"rate-of-fire": "1"
-					}
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "enemy",
-					"sid": 802637255270048,
-					"parameters": {
-						"object": "Sprite3",
-						"layer": "1",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				},
-				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 609453816510065,
+					"sid": 276665236186043,
 					"parameters": {
-						"audio-file": "skyclad_sound_bullet_wizz_by_sharp_rapid_whine_bass_165 (1)",
+						"audio-file": "Siren",
 						"loop": "not-looping",
-						"volume": "-10",
+						"volume": "0",
 						"tag-optional": "\"\""
 					}
 				}
 			],
-			"sid": 292265173813740,
-			"disabled": true
+			"sid": 922714999646750
 		},
 		{
 			"eventType": "block",
@@ -1282,6 +1199,31 @@
 				}
 			],
 			"sid": 324633611576065
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-angles",
+					"objectClass": "enemy",
+					"sid": 621289950176890,
+					"parameters": {
+						"first-angle": "91",
+						"second-angle": "269"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-flipped",
+					"objectClass": "enemy",
+					"sid": 782698831213323,
+					"parameters": {
+						"state": "flipped"
+					}
+				}
+			],
+			"sid": 903431302539715
 		}
 	],
 	"sid": 442347107940901
