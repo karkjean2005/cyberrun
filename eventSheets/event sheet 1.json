@@ -885,11 +885,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 537173363510570,
+					"sid": 110997240534325,
 					"parameters": {
-						"audio-file": "Siren",
+						"audio-file": "Siren_2",
 						"loop": "not-looping",
-						"volume": "-25",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				},
@@ -928,11 +928,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 276665236186043,
+					"sid": 308150500552351,
 					"parameters": {
-						"audio-file": "Siren",
+						"audio-file": "Siren_2",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				}
