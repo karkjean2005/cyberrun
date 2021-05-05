@@ -533,7 +533,7 @@
 						"font": "Arial",
 						"size": 33.80000000000006,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -655,7 +655,7 @@
 						"font": "Arial",
 						"size": 33.90000000000005,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,

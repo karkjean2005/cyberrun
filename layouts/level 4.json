@@ -22,8 +22,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -139,
-						"y": -276,
+						"x": -113,
+						"y": -170,
 						"width": 1761.5786027311665,
 						"height": 1139.6244337833457,
 						"originX": 0,
@@ -659,8 +659,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 28,
-						"y": -251,
+						"x": 16,
+						"y": -232,
 						"width": 333.8943817607884,
 						"height": 281.2615402325569,
 						"originX": 0.5,
@@ -3362,6 +3362,39 @@
 						"height": 94.22066612185216,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TiledBackground21",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 213,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -133,
+						"y": -200,
+						"width": 1793,
+						"height": 1170,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
