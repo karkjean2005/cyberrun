@@ -250,7 +250,9 @@
 			"Sprite13",
 			"Teleport4",
 			"Teleport5",
-			"TiledBackground21"
+			"TiledBackground21",
+			"Teleport6",
+			"Teleport7"
 		],
 		"subfolders": []
 	},
@@ -273,7 +275,8 @@
 			"Introduction2",
 			"Level 4",
 			"Level 5",
-			"Level 6"
+			"Level 6",
+			"Level 7"
 		],
 		"subfolders": []
 	},
